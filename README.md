@@ -17,9 +17,27 @@ Please go through the provided [requirement document](https://docs.google.com/do
 - [Functional Requirements](./requirements/functional-requirements.md): Here you'll find the different actors in the system, functionalities each user can do (aka user stories), assumptions and constraints that we considered during the process.
 - [Architecture Characteristics](./requirements/architecture-characteristics.md): The architecture design must incorporate these characteristics along with the above mentioned functional requirements.
 
-## Architecture
-
 ## Architectural Evaluation
+The following points outline how does the architecture support some of the hard-requirements of this platform:
+### Ease of Use
+- Platform supports multiple user surfaces - Web and Mobile. This enables users to access the platform on-the-go. 
+  - Push notifications over mobile and web keep the users connected and engaged.
+  - Platform creates device-size specific renditions of images present in the assignments, profiles and community posts. Based on the user-device, appropriate image rendition is returned for a seamless experience.
+- Platform ensures that all entities in the system (candidates, non profits, services, communities, posts etc.) are searchable. It intelligently tags for seamless discovery and retrieval.
+- UX plays a critical role in ensuring ease-of-use of the Spotlight App. The UX ensures seamless onboarding experience, continuous progress tracking, constant feedback and access to community forums.
+
+### Engagement
+To facilitate engagement, the Spotlight App -
+- Rewards the candidates and non-profits with points and badges
+- Highlights the top non-profits, top candidates, top communities, top community posts in the app. These top entities are computed platform wide and globally over a period of time (weekly, monthly etc).
+- Platform supports multiple user surfaces - Web and Mobile. This enables users to access the platform on-the-go. Push notifications over web and mobile keep them connected and engaged.
+- Platform ensures that all entities in the system (candidates, non profits, services, communities, posts etc.) are searchable. It intelligently tags for seamless discovery and retrieval.
+- Community leader and career mentor play a critical role in the engagement.
+
+### Analytics / Reporting
+<!-- add text here -->
+
+## Architecture
 
 ## ADRs
 
