@@ -4,12 +4,12 @@ Analytical Architecture for analytical reporting such as projections of future d
 ![Analytical Architecture](../images/analytical_architecture.jpeg)
 
 ## Element Catalog 
-Data Ingestion
-Data Lake
-Operational Tier
-Data warehouse
-Presentation Tier
-Operation Scheduler
+Data Ingestion <br />
+Data Lake <br />
+Operational Tier <br />
+Data warehouse <br />
+Presentation Tier <br />
+Operation Scheduler <br />
 
 #### Data Ingestion
 This includes data from various sources such as click streams, feedback forms, databases, events emitted from various 
