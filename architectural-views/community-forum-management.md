@@ -1,7 +1,7 @@
 # Community Forum Management
 Community Forums are the heart of the Spotlight ecosystem that bring together all the involved users.  
 
-![Alt text - Community Forum Management](../images/community-forum-management.png)
+<img src="../images/community-forum-management.png" height="500"></img>
 
 ## Element Catalog 
 
