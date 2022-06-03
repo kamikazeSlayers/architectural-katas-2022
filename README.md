@@ -49,7 +49,14 @@ The main part of the design proposal is the set of architecture views seen below
 - [Analytical Architecture](./architectural-views/analytical-architecture.md)
 - [Community Forum Management Architecture](./architectural-views/community-forum-management.md)
 - [Search and Enrichment Service Architecture](./architectural-views/search-and-enrichment-service.md)
-- [Physical View Architecture (AWS Deployment)](./architectural-views/physical-view-aws-deployment.md)
+- [Database Change Data Consumer Microservice](./architectural-views/database-change-data-consumer.md)
+
+
+Below is a physical/deployment view for the components seen in the above architectural views:
+
+| [AWS deployment view](./architectural-views/physical-view-aws-deployment.md) |
+|---|
+| <img src="images/physical_view.jpeg" width="200"> |
 
 ## ADRs
 Below are the key architectural decision records:
