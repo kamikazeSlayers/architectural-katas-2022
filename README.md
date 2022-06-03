@@ -43,6 +43,11 @@ To facilitate analytical reporting, the Spotlight App -
 - [Analytical Architecture](./architectural-views/analytical-architecture.md)
 
 ## ADRs
+Below are the key architectural decision records:
+- Microservice vs Monolith Style of Architecture
+- Database Considerations: MySQL vs NoSQL
+- Event driven architecture (EDA)
+- Change Data Capture (CDC)
 
 ---
 
