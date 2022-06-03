@@ -45,8 +45,10 @@ To facilitate analytical reporting, the Spotlight App -
 - Is powered by machine learning to perform predictive analysis, data classification etc. to plan for future requirements, gaps in the services and so on.
 
 ## Architecture
+The main part of the design proposal is the set of architecture views seen below:
 - [Analytical Architecture](./architectural-views/analytical-architecture.md)
 - [Community Forum Management Architecture](./architectural-views/community-forum-management.md)
+- [Search and Enrichment Service Architecture](./architectural-views/search-and-enrichment-service.md)
 - [Physical View Architecture (AWS Deployment)](./architectural-views/physical-view-aws-deployment.md)
 
 ## ADRs
