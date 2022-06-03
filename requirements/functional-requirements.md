@@ -353,6 +353,7 @@ avoid spam, bring down posts/offerings, disable NPOs/candidates that do not abid
 9. One user can have multiple roles (NP, Candidate ...)
 10. Community leader must verify authenticity of NP and approve.
 11. Meetings can be physical or virtual. In case of virtual meetings, the platform will rely on third-party services/applications like Google Meet, Zoom etc.
+12. Posts in a community forum can contain text and one or more images upto 10 MB.
 
 
 ## Constraints
