@@ -1,4 +1,4 @@
-# Title of the architecture view 
+# Community Forum Management
 Community Forums are the heart of the Spotlight ecosystem that bring together all the involved users.  
 
 ![Alt text - name of the view](../images/spotlight.jpeg)
