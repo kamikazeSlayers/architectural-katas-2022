@@ -49,6 +49,7 @@ The main part of the design proposal is the set of architecture views seen below
 - [Analytical Architecture](./architectural-views/analytical-architecture.md)
 - [Community Forum Management Architecture](./architectural-views/community-forum-management.md)
 - [Search and Enrichment Service Architecture](./architectural-views/search-and-enrichment-service.md)
+- [Physical View Architecture (AWS Deployment)](./architectural-views/physical-view-aws-deployment.md)
 
 ## ADRs
 Below are the key architectural decision records:
@@ -56,7 +57,7 @@ Below are the key architectural decision records:
 - Database Considerations: MySQL vs NoSQL
 - Event driven architecture (EDA)
 - Change Data Capture (CDC)
-
+- AWS for deployments
 ---
 
 ## Directory Structure
