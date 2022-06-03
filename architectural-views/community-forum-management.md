@@ -1,5 +1,5 @@
 # Title of the architecture view 
-Short description of the scope and nature of this architecture view. 
+Community Forums are the heart of the Spotlight ecosystem that bring together all the involved users.  
 
 ![Alt text - name of the view](../images/spotlight.jpeg)
 
@@ -7,9 +7,7 @@ Short description of the scope and nature of this architecture view.
 
 #### Commmunity Forum Management Service
 
-- Community Forum Management Service (FMS) acts as a heart of the Spotlight ecosystem that brings all the involved users closer.  
-
-- CFMS manages communities, community-memberships, forums, posts, post-votes, and user-rewards. It uses a SQL database to manage these entities and their relationships.
+- Community Forum Management Service (CFMS) manages communities, community-memberships, forums, posts, post-votes, and user-rewards. It uses a SQL database to manage these entities and their relationships.
 
 - CFMS and related services use event-driven architecture to support high scale and resiliency. It enables asynchronous processing of high volume workflows thereby uncoupling the services to process high volume non-urgent workflows asynchronously.
 
