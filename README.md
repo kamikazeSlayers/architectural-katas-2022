@@ -31,6 +31,7 @@ To facilitate engagement, the Spotlight App -
 - Highlights the top non-profits, top candidates, top communities, top community posts in the app. These top entities are computed platform wide and globally over a period of time (weekly, monthly etc).
 - Platform supports notifications on all possible user surfaces - Web and Mobile. This helps in keeping the users connected and engaged.
 - Community leader and career mentor play a critical role in the engagement.
+- Platform provides community forums where candidates, non-profits and community leaders can collaborate, share announcements/posts and ask questions.
 
 ### Analytics / Reporting
 <!-- add text here -->
