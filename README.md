@@ -12,5 +12,11 @@ The project aims to solve two problems:
 
 This architecture document aims at providing a technology solution that serves the purpose of enhancing visibility, support, and collaboration of nonprofits serving similar needs in the community and operates as a candidate case management platform.
 
+## Requirements
+Please go through the provided [requirement document](https://docs.google.com/document/d/1XjEpcGJ87xYg1eWN9eE0_tH7te5HcVAgPvoONLHY4qQ/edit) to understand the requirements better. These requirements along with the assumptions we made were the main drivers for the design decisions in our architectural proposal.
 
-
+## Directory Structure
+- [ADRs](./adrs/) - contains all architecture decisions.
+- [Architectural Views](./architectural-views/) - contains detailed architectural views with supporting documentation for every component.
+- [Images](./images) - contains architecture diagrams and other supporting images. 
+- [Requirements](./requirements/) - contains the requirements and architectural characteristics considered.
