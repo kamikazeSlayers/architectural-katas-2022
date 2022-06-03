@@ -20,9 +20,8 @@ Please go through the provided [requirement document](https://docs.google.com/do
 ## Architectural Evaluation
 The following points outline how does the architecture support some of the hard-requirements of this platform:
 ### Ease of Use
-- Platform supports multiple user surfaces - Web and Mobile. This enables users to access the platform on-the-go. 
-  - Push notifications over mobile and web keep the users connected and engaged.
-  - Platform creates device-size specific renditions of images present in the assignments, profiles and community posts. Based on the user-device, appropriate image rendition is returned for a seamless experience.
+- Platform supports multiple user surfaces - Web and Mobile. This enables users to access the platform on-the-go as per their preference.
+- Platform creates device-size specific renditions of images present in the assignments, profiles and community posts. Based on the user-device, appropriate image rendition is returned for a seamless experience.
 - Platform ensures that all entities in the system (candidates, non profits, services, communities, posts etc.) are searchable. It intelligently tags for seamless discovery and retrieval.
 - UX plays a critical role in ensuring ease-of-use of the Spotlight App. The UX ensures seamless onboarding experience, continuous progress tracking, constant feedback and access to community forums.
 
@@ -30,8 +29,7 @@ The following points outline how does the architecture support some of the hard-
 To facilitate engagement, the Spotlight App -
 - Rewards the candidates and non-profits with points and badges
 - Highlights the top non-profits, top candidates, top communities, top community posts in the app. These top entities are computed platform wide and globally over a period of time (weekly, monthly etc).
-- Platform supports multiple user surfaces - Web and Mobile. This enables users to access the platform on-the-go. Push notifications over web and mobile keep them connected and engaged.
-- Platform ensures that all entities in the system (candidates, non profits, services, communities, posts etc.) are searchable. It intelligently tags for seamless discovery and retrieval.
+- Platform supports notifications on all possible user surfaces - Web and Mobile. This helps in keeping the users connected and engaged.
 - Community leader and career mentor play a critical role in the engagement.
 
 ### Analytics / Reporting
