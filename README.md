@@ -64,11 +64,11 @@ Below is a physical/deployment view for the components seen in the above archite
 
 ## ADRs
 Below are the key architectural decision records:
-- Microservice vs Monolith Style of Architecture
-- Database Considerations: MySQL vs NoSQL
-- Event driven architecture (EDA)
-- Change Data Capture (CDC)
-- AWS for deployments
+- [Microservice vs Monolith Style of Architecture](adrs/adr01-microservice-architecture.md)
+- [Event driven architecture (EDA)](adrs/adr02-eda-architecture.md)
+- [Database Considerations: MySQL vs NoSQL](adrs/adr03-sql-vs-nosql.md)
+- [Change Data Capture (CDC)](adrs/adr04-change-data-capture.md)
+- [AWS for deployments](adrs/adr05-AWS_for_deployment.md)
 ---
 
 ## Directory Structure
