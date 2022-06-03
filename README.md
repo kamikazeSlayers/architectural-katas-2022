@@ -13,10 +13,20 @@ The project aims to solve two problems:
 This architecture document aims at providing a technology solution that serves the purpose of enhancing visibility, support, and collaboration of nonprofits serving similar needs in the community and operates as a candidate case management platform.
 
 ## Requirements
-Please go through the provided [requirement document](https://docs.google.com/document/d/1XjEpcGJ87xYg1eWN9eE0_tH7te5HcVAgPvoONLHY4qQ/edit) to understand the requirements better. These requirements along with the assumptions we made were the main drivers for the design decisions in our architectural proposal.
+Please go through the provided [requirement document](https://docs.google.com/document/d/1XjEpcGJ87xYg1eWN9eE0_tH7te5HcVAgPvoONLHY4qQ/edit) to understand the requirements better. These requirements were the main drivers for the design decisions in our architectural proposal.
+- [Functional Requirements](./requirements/functional-requirements.md): Here you'll find the different actors in the system, functionalities each user can do (aka user stories), assumptions and constraints that we considered during the process.
+- [Architecture Characteristics](./requirements/architecture-characteristics.md): The architecture design must incorporate these characteristics along with the above mentioned functional requirements.
+
+## Architecture
+
+## Architectural Evaluation
+
+## ADRs
+
+---
 
 ## Directory Structure
 - [ADRs](./adrs/) - contains all architecture decisions.
 - [Architectural Views](./architectural-views/) - contains detailed architectural views with supporting documentation for every component.
 - [Images](./images) - contains architecture diagrams and other supporting images. 
-- [Requirements](./requirements/) - contains the requirements and architectural characteristics considered.
+- [Requirements](./requirements/) - contains the requirements and architecture characteristics considered.
