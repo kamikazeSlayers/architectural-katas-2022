@@ -28,15 +28,6 @@ Community Forums are the heart of the Spotlight ecosystem that bring together al
 - Search Service makes the common entities in a community (candidates, non profits, services, communities, posts etc.) searchable. It intelligently tags these entities for seamless discovery and retrieval.
 - Search Service uses ElasticSearch for maintaining the search index.
 
-
-## Behavior
-- if applicable, add one or more behavior diagrams, such as sequence diagrams or state diagrams. They should complement 
-the structural diagram shown up-front.
  
 ## Related ADRs 
-- just add the link
-- just add the link
 
-## Related Views
-- just add the link 
-- just add the link
