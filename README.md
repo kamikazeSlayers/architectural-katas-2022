@@ -45,6 +45,9 @@ To facilitate analytical reporting, the Spotlight App -
 - Is powered by machine learning to perform predictive analysis, data classification etc. to plan for future requirements, gaps in the services and so on.
 
 ## Architecture
+Below is a high-level view of the system that fulfills all the requirements (see [below section](#component-architecture-views) describing the components in detail):
+<img src="images/high-level-component-view.jpeg">
+
 The main part of the design proposal is the set of architecture views seen below:
 - [Analytical Architecture](./architectural-views/analytical-architecture.md)
 - [Community Forum Management Architecture](./architectural-views/community-forum-management.md)
