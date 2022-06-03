@@ -24,3 +24,6 @@ Search service is responsible for faster discovery and retrieval of most entitie
 - The ElasticSearch indices are built based on the entity types.
 - When a user searches for something (powered by the REST API), the search service will accumulate results from the different indices and provide relevant results.
 - Since only fully qualified objects are returned, the front-end client can directly use them without any further callbacks required to individual microservices.
+
+## Related Views
+- [Database Change Data Consumer Microservice View](../architectural-views/database-change-data-consumer.md)
