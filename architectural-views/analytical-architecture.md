@@ -1,7 +1,7 @@
 # Analytical Architecture
 Analytical Architecture for analytical reporting such as projections of future desirable career paths, Offering gaps in a region based on demand, and so on. 
 
-![Analytical Architecture](../images/analytical-architecture.jpeg)
+![Analytical Architecture](../images/analytical_architecture.jpeg)
 
 ## Element Catalog 
 Data Ingestion
