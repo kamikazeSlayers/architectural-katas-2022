@@ -33,9 +33,13 @@ To facilitate engagement, the Spotlight App -
 - Community leader and career mentor play a critical role in the engagement.
 
 ### Analytics / Reporting
-<!-- add text here -->
+To facilitate analytical reporting, the Spotlight App -
+- Provides powerful visualisation tools to analyse data to gain meaningful insights.
+- Supports SQL based dashboards to create reports and visualisations for custom queries.
+- Is powered by machine learning to perform predictive analysis, data classification etc. to plan for future requirements, gaps in the services and so on.
 
 ## Architecture
+- [Analytical Architecture](./architectural-views/analytical-architecture.md)
 
 ## ADRs
 
