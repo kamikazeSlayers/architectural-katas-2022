@@ -48,13 +48,14 @@ To facilitate analytical reporting, the Spotlight App -
 Below is a high-level view of the system that fulfills all the requirements (see [below section](#component-architecture-views) describing the components in detail):
 <img src="images/high-level-component-view.jpeg">
 
+### Component Architecture Views
 The main part of the design proposal is the set of architecture views seen below:
 - [Analytical Architecture](./architectural-views/analytical-architecture.md)
 - [Community Forum Management Architecture](./architectural-views/community-forum-management.md)
 - [Search and Enrichment Service Architecture](./architectural-views/search-and-enrichment-service.md)
 - [Database Change Data Consumer Microservice](./architectural-views/database-change-data-consumer.md)
 
-
+### Deployment View
 Below is a physical/deployment view for the components seen in the above architectural views:
 
 | [AWS deployment view](./architectural-views/physical-view-aws-deployment.md) |
