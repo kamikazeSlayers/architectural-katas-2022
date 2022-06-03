@@ -6,7 +6,7 @@ Search service is responsible for faster discovery and retrieval of most entitie
 - Location
 - Random text for seeking any help (community forums)
 
-<img src="../images/search-and-enrichment-service.png"></img>
+<img src="../images/search-and-enrichment-service.jpeg"></img>
 
 ## Element Catalog 
 
