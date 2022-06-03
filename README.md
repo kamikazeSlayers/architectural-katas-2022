@@ -47,6 +47,7 @@ To facilitate analytical reporting, the Spotlight App -
 ## Architecture
 - [Analytical Architecture](./architectural-views/analytical-architecture.md)
 - [Community Forum Management Architecture](./architectural-views/community-forum-management.md)
+- [Physical View Architecture (AWS Deployment)](./architectural-views/physical-view-aws-deployment.md)
 
 ## ADRs
 Below are the key architectural decision records:
@@ -54,7 +55,7 @@ Below are the key architectural decision records:
 - Database Considerations: MySQL vs NoSQL
 - Event driven architecture (EDA)
 - Change Data Capture (CDC)
-
+- AWS for deployments
 ---
 
 ## Directory Structure
