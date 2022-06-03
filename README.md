@@ -47,6 +47,7 @@ To facilitate analytical reporting, the Spotlight App -
 ## Architecture
 - [Analytical Architecture](./architectural-views/analytical-architecture.md)
 - [Community Forum Management Architecture](./architectural-views/community-forum-management.md)
+- [Search and Enrichment Service Architecture](./architectural-views/search-and-enrichment-service.md)
 
 ## ADRs
 Below are the key architectural decision records:
