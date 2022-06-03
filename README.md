@@ -14,6 +14,8 @@ The project aims to solve two problems:
 
 This architecture document aims at providing a technology solution that serves the purpose of enhancing visibility, support, and collaboration of nonprofits serving similar needs in the community and operates as a candidate case management platform.
 
+<img src="images/spotlight-community.jpg" height="400"></img>
+
 ## Requirements
 Please go through the provided [requirement document](https://docs.google.com/document/d/1XjEpcGJ87xYg1eWN9eE0_tH7te5HcVAgPvoONLHY4qQ/edit) to understand the requirements better. These requirements were the main drivers for the design decisions in our architectural proposal.
 - [Functional Requirements](./requirements/functional-requirements.md): Here you'll find the different actors in the system, functionalities each user can do (aka user stories), assumptions and constraints that we considered during the process.
@@ -22,18 +24,19 @@ Please go through the provided [requirement document](https://docs.google.com/do
 ## Architectural Evaluation
 The following points outline how does the architecture support some of the hard-requirements of this platform:
 ### Ease of Use
-- Platform supports multiple user surfaces - Web and Mobile. This enables users to access the platform on-the-go as per their preference.
-- Platform creates device-size specific renditions of images present in the assignments, profiles and community posts. Based on the user-device, appropriate image rendition is returned for a seamless experience.
-- Platform ensures that all entities in the system (candidates, non profits, services, communities, posts etc.) are searchable. It intelligently tags for seamless discovery and retrieval.
-- UX plays a critical role in ensuring ease-of-use of the Spotlight App. The UX ensures seamless onboarding experience, continuous progress tracking, constant feedback and access to community forums.
+To facilitate ease-of-use, the Spotlight App -
+- Supports multiple user surfaces - Web and Mobile. This enables users to access the platform on-the-go as per their preference.
+- Creates device-size specific renditions of images present in the assignments, profiles and community posts. Based on the user-device, appropriate image rendition is returned for a seamless experience.
+- Ensures that all entities in the system (candidates, non profits, services, communities, posts etc.) are searchable. It intelligently tags for seamless discovery and retrieval.
+- Uses UX ensures seamless onboarding experience, continuous progress tracking, constant feedback and access to community forums.
 
 ### Engagement
 To facilitate engagement, the Spotlight App -
 - Rewards the candidates and non-profits with points and badges
 - Highlights the top non-profits, top candidates, top communities, top community posts in the app. These top entities are computed platform wide and globally over a period of time (weekly, monthly etc).
-- Platform supports notifications on all possible user surfaces - Web and Mobile. This helps in keeping the users connected and engaged.
-- Community leader and career mentor play a critical role in the engagement.
-- Platform provides community forums where candidates, non-profits and community leaders can collaborate, share announcements/posts and ask questions.
+- Supports notifications on all possible user surfaces - Web and Mobile. This helps in keeping the users connected and engaged.
+- Ensures that the community leader and career mentor play a critical role in the engagement.
+- Provides community forums where candidates, non-profits and community leaders can collaborate, share announcements/posts and ask questions.
 
 ### Analytics / Reporting
 To facilitate analytical reporting, the Spotlight App -
