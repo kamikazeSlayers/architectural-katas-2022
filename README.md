@@ -21,6 +21,9 @@ Please go through the provided [requirement document](https://docs.google.com/do
 - [Functional Requirements](./requirements/functional-requirements.md): Here you'll find the different actors in the system, functionalities each user can do (aka user stories), assumptions and constraints that we considered during the process.
 - [Architecture Characteristics](./requirements/architecture-characteristics.md): The architecture design must incorporate these characteristics along with the above mentioned functional requirements.
 
+## Context View
+<img src="images/context_view.jpeg" height="500"></img>
+
 ## Architectural Evaluation
 The following points outline how does the architecture support some of the hard-requirements of this platform:
 ### Ease of Use
@@ -55,6 +58,7 @@ The main part of the design proposal is the set of architecture views seen below
 - [Community Forum Management Architecture](./architectural-views/community-forum-management.md)
 - [Search and Enrichment Service Architecture](./architectural-views/search-and-enrichment-service.md)
 - [Database Change Data Consumer Microservice](./architectural-views/database-change-data-consumer.md)
+- [Operational Reporting](./architectural-views/operational-reports.md)
 - [Analytical Architecture](./architectural-views/analytical-architecture.md)
 
 ### Deployment View
@@ -62,7 +66,7 @@ Below is a physical/deployment view for the components seen in the above archite
 
 | [AWS deployment view](./architectural-views/physical-view-aws-deployment.md) |
 |---|
-| <img src="images/physical_view.jpeg" width="200"> |
+| <img src="images/physical_view.jpeg" width="500"> |
 
 ## ADRs
 Below are the key architectural decision records:
