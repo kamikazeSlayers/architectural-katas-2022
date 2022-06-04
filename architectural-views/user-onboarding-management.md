@@ -25,7 +25,9 @@ In addition, the roles for the user is also maintained by the user management da
 ### Networking Hub Functionality & Process
 
 #### Non-Profit Organisation Onboarding
-![Non Profit Onboarding](../images/onboarding_flow_chart.jpeg)
+
+<img src="../images/onboarding_flow_chart.jpeg" height="500"></img>
+
 The platform manager stores all information related to the Non profit, candidates enrolled for various non profit offerings, community leader assigned to a non-profit, etc.
 
 Only a user with role NPO can create a non-profit organisation profile. 
