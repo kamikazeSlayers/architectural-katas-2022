@@ -74,6 +74,8 @@ stored in the NPO's offering data in the document db.
 
 <img src="../images/community_leader_assignment_platform_management_service.jpeg" height="500"></img>
 
+- A community is an independent entity that a community forum and a community leader. 
+
 - Based on the services and the area of expertise of the non profit which is assigned to a community. 
 Initially, this information is manually extracted from the NPO at the time of onboarding. 
 It can however, later, be automated by using auto-tagging service powered by machine learning models.
@@ -92,6 +94,9 @@ The community leader also assigns role based training via email to the non-profi
 The NPO users calendars are also blocked for monthly community meetings that are conducted either online or offline by the community leaders for networking and collaboration between the non profit organisations. 
 
 - The user can view their meeting schedule on the platform.
+
+- A new community can be created by a community leader, or an admin based on the type of services offered by the NPOs. An NPO can be part of one or more communities.
+
 
 ### Career Case Management Functionality & Process 
 
@@ -113,6 +118,7 @@ Sufficient number of career mentors must be ensured by the platform admin.
 The candidates calendars are also blocked for biweekly 1:1 meetings with the career mentor for progress tracking and mentoring based on the availability of the candidate and the mentor. 
 
 #### Career roadmap creation
+
 <img src=".../images/needs_matching.jpg" height="500"></img>
 
 - Based on the needs assessment, a set of offerings are recommended to the candidate. A recommendation system, which can be intially created using simple tag extaction and later using ML for more refined and accurate recommendations, uses the NPO offerings available and the needs of the candidate to recommend a set of offerings.
@@ -145,7 +151,7 @@ If there are deadlines associated with an offering that the candidate has enroll
 - These reports are then used by the [Analytical Architecture](./analytical-architecture.md) to predict career paths for candidates based on the offerings.
 
 #### Feedback on completion 
-On completion of the career roadmap, the candidate is sent a feedback form which is used for analytical peurposes.
+On completion of the career roadmap, the candidate is sent a feedback form which is used for analytical purposes.
  
 ## Related ADRs 
 - [SQL v/s NoSQL](../adrs/adr03-sql-vs-nosql.md)
