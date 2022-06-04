@@ -82,6 +82,9 @@ It can however, later, be automated by using auto-tagging service powered by mac
 
 - The platform admin assigns community leaders to various communities based on their skills and areas of expertise.
 
+- The community leader verifies the authenticity of the non profit based on the non profit registration details on a third party website that registers the non profits.
+If the NPO is found to be fake, the profile is deleted by the admin. 
+
 - Once the community that the Non-profit belongs to is identified, a leader from the list of community leaders who belong to that community is assigned to the non-profit organisation.
 This assignment is in round-robin basis so as to equally distribute the number of NPOs among the available community leaders.
 The platform must ensure that no community leader handles more than a certain number of non-profits. 
