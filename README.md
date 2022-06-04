@@ -22,7 +22,7 @@ Please go through the provided [requirement document](https://docs.google.com/do
 - [Architecture Characteristics](./requirements/architecture-characteristics.md): The architecture design must incorporate these characteristics along with the above mentioned functional requirements.
 
 ## Context View
-<img src="images/context_view.jpeg" height="500"></img>
+<img src="images/context_view.jpeg" height="200"></img>
 
 ## Architectural Evaluation
 The following points outline how does the architecture support some of the hard-requirements of this platform:
