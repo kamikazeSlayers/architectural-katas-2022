@@ -119,7 +119,7 @@ The candidates calendars are also blocked for biweekly 1:1 meetings with the car
 
 #### Career roadmap creation
 
-<img src=".../images/needs_matching.jpg" height="500"></img>
+<img src="../images/needs_matching.jpg" height="500"></img>
 
 - Based on the needs assessment, a set of offerings are recommended to the candidate. A recommendation system, which can be intially created using simple tag extaction and later using ML for more refined and accurate recommendations, uses the NPO offerings available and the needs of the candidate to recommend a set of offerings.
 There can be an upper limit on the number of offerings returned as part of this recommendation so as to not overwhelm the candidate. 
