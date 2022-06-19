@@ -78,6 +78,7 @@ Below are the key architectural decision records:
 - [Database Considerations: MySQL vs NoSQL](adrs/adr03-sql-vs-nosql.md)
 - [Change Data Capture (CDC)](adrs/adr04-change-data-capture.md)
 - [AWS for deployments](adrs/adr05-AWS_for_deployment.md)
+- [Caching using Cache Manager](adrs/adr06-caching.md)
 ---
 
 ## Directory Structure

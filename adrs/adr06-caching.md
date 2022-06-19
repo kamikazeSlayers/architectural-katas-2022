@@ -10,7 +10,7 @@ Caching is a common architectural paradigm that not only helps reduce the page-l
 
 'Cache Manager' micro-service consumes all entity updates via the message bus and updates the in-memory cache. This provides an efficient way to manage cache entities, populate cache on demand.
 
-<img src="../images/caching.png"></img>
+<img src="../images/caching.png" height="500"></img>
 
 ### Caching strategies that were evaluated 
 
