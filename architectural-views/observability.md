@@ -6,7 +6,7 @@ On a high level, Observability comprises of three pillars: Metrics & Monitoring,
 ![observability architecture](../images/observability-basic-architecture.png)
 
 ## Element Catalog 
-- [Metrics & Monitoring](#Metrics-&-Monitoring)
+- [Metrics & Monitoring](#Metrics--Monitoring)
 - [Logging](#Logging)
 - [Distributed Tracing](#Distributed-Tracing) 
 
