@@ -68,6 +68,9 @@ Below is a physical/deployment view for the components seen in the above archite
 |---|
 | <img src="images/physical_view.jpeg" width="500"> |
 
+### Observability
+Observability plays an indispensible role in providing the tools to effectively monitor the usage, performance and health of the system. Spotlight App makes good use of all three pillars involved in Observability - Metrics & Monitoring, Logging and Distributed Tracing. For more details, see [./architectural-views/observability.md](Observability: Metrics & Monitoring, Logging and Distributed Tracing).
+
 ## ADRs
 Below are the key architectural decision records:
 - [Microservice vs Monolith Style of Architecture](adrs/adr01-microservice-architecture.md)
