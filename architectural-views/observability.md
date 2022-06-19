@@ -3,7 +3,7 @@ Observability plays an indispensible role in providing the tools to effectively 
 
 On a high level, Observability comprises of three pillars: Metrics & Monitoring, Logging and Tracing.
  
-![observability architecture](../images/observability-basic-architecture.png)
+<img src="../images/observability-basic-architecture.png" height="500"></img>
 
 ## Element Catalog 
 - [Metrics & Monitoring](#Metrics--Monitoring)
