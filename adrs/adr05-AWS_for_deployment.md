@@ -20,7 +20,7 @@ The Spotlight platform will use [Amazon AWS](https://aws.amazon.com/?nc2=h_lg) a
 
 ## Other options that were considered
 - Other cloud providers like [Microsoft Azure](https://azure.microsoft.com/en-in/) and [Google Cloud Platform](https://cloud.google.com/) were evaluated. However, none of them match the maturity and feature capabilities of AWS.
-  - For example, Redis based cache is highly utilized in the Spotlight App architecture. As per [Azure docs](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-how-to-zone-redundancy), Zone redundancy support only works with non-clustered and non-geo-replicated caches currently. AWS supports zone redundancy in cluster mode with geo-replication. In addition, it doesn’t support private link, scaling, data persistence, or import/export. 
+  - For example, Redis based cache is highly utilized in the Spotlight App architecture. As per [Azure docs](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-how-to-zone-redundancy), Zone redundancy support only works with non-clustered and non-geo-replicated caches currently. In addition, it doesn’t support private link, scaling, data persistence, or import/export. On the contrary, AWS [supports zone redundancy](https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/AutoFailover.html) in cluster mode with geo-replication.
 - In terms of costs too, we found that AWS offerings are cheaper that Azure and Google Cloud Platform. See the price comparison for managed Redis cache [here](https://blog.skeddly.com/2020/01/comparing-managed-redis-services-on-aws-azure-and-gcp.html).
 
 ## Consequences
