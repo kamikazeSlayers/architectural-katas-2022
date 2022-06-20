@@ -26,12 +26,13 @@ Please go through the provided [requirement document](https://docs.google.com/do
 
 ## Architectural Evaluation
 The following points outline how does the architecture support some of the hard-requirements of this platform:
+
 ### Ease of Use
 To facilitate ease-of-use, the Spotlight App -
 - Supports multiple user surfaces - Web and Mobile. This enables users to access the platform on-the-go as per their preference.
 - Creates device-size specific renditions of images present in the assignments, profiles and community posts. Based on the user-device, appropriate image rendition is returned for a seamless experience.
 - Ensures that all entities in the system (candidates, non profits, services, communities, posts etc.) are searchable. It intelligently tags for seamless discovery and retrieval.
-- Uses UX ensures seamless onboarding experience, continuous progress tracking, constant feedback and access to community forums.
+- User Experience (UX) plays a critical role in ensuring ease-of-use of the Spotlight App. The UX ensures seamless onboarding experience, continuous progress tracking, constant feedback and access to community forums.
 
 ### Engagement
 To facilitate engagement, the Spotlight App -
@@ -69,7 +70,7 @@ Below is a physical/deployment view for the components seen in the above archite
 | <img src="images/physical_view.jpeg" width="500"> |
 
 ### Observability
-Observability plays an indispensible role in providing the tools to effectively monitor the usage, performance and health of the system. Spotlight App makes good use of all three pillars involved in Observability - Metrics & Monitoring, Logging and Distributed Tracing. For more details, see [./architectural-views/observability.md](Observability: Metrics & Monitoring, Logging and Distributed Tracing).
+Observability plays an indispensible role in providing the tools to effectively monitor the usage, performance and health of the system. Spotlight App makes good use of all three pillars involved in Observability - Metrics & Monitoring, Logging and Distributed Tracing. For more details, see [Observability: Metrics & Monitoring, Logging and Distributed Tracing](./architectural-views/observability.md).
 
 ## ADRs
 Below are the key architectural decision records:
@@ -86,3 +87,6 @@ Below are the key architectural decision records:
 - [Architectural Views](./architectural-views/) - contains detailed architectural views with supporting documentation for every component.
 - [Images](./images) - contains architecture diagrams and other supporting images. 
 - [Requirements](./requirements/) - contains the requirements and architecture characteristics considered.
+
+## Tools Used
+- [Lucid Chart](https://lucid.app/) - We used Lucid Chart for creating all of our architecture diagrams.
