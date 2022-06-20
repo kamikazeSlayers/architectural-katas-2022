@@ -1,5 +1,4 @@
-# Title
-Event Driven Architecture
+# Event Driven Architecture
 
 ## Status
 Proposed

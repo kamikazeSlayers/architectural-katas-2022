@@ -1,5 +1,4 @@
-# Title
-Microservices Architecture v/s Monolithic Architecture
+# Microservices Architecture v/s Monolithic Architecture
 
 ## Status
 Proposed
