@@ -1,8 +1,7 @@
-# Title
-Event Driven Architecture
+# Event Driven Architecture
 
 ## Status
-Proposed
+Approved
 
 ## Context
 We want to build a scalable and performant system capable of serving one million users, with a throughput of about 200K requests per minute. 

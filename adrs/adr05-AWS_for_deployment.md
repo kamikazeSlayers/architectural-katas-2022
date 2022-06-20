@@ -1,7 +1,7 @@
 # Use AWS as Cloud Provider
 
 ## Status
-Proposed
+Approved
 
 ## Context
 Using a managed service powered by a public cloud provider vs managing everything on our own affects a lot of the architectural characeristics:
