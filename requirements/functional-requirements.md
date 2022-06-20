@@ -55,7 +55,7 @@ Our goal is to establish a sustainable and diverse talent pipeline that extends 
 
 ### User Stories
 
-**Non Profit**
+#### Non Profit
 
 
 <table>
@@ -117,7 +117,7 @@ Our goal is to establish a sustainable and diverse talent pipeline that extends 
 </table>
 
 
-**Candidate**
+#### Candidate
 
 
 <table>
@@ -188,7 +188,7 @@ Our goal is to establish a sustainable and diverse talent pipeline that extends 
 </table>
 
 
-**Community Leader**
+#### Community Leader
 
 
 <table>
@@ -243,7 +243,7 @@ Our goal is to establish a sustainable and diverse talent pipeline that extends 
 </table>
 
 
-**Career Mentor**
+#### Career Mentor
 
 
 <table>
@@ -298,7 +298,7 @@ Our goal is to establish a sustainable and diverse talent pipeline that extends 
 </table>
 
 
-**Admin**
+#### Admin
 
 
 <table>
