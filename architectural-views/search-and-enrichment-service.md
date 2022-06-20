@@ -6,6 +6,8 @@ Search service is responsible for faster discovery and retrieval of most entitie
 - Location
 - Random text for seeking any help (community forums)
 
+See platform requirement [#1](../requirements/functional-requirements.md#functional-requirements) and non-profit requirement [#NP3](../requirements/functional-requirements.md#user-stories), candidate requirements [#C3, #C7](../requirements/functional-requirements.md#candidate), community leader requirement [#CL3](../requirements/functional-requirements.md#community-leader), career mentor requirement [#CM4](../requirements/functional-requirements.md#career-mentor) and admin requirements [#A1, #A2](../requirements/functional-requirements.md#admin).
+
 <img src="../images/search-and-enrichment-service.jpeg"></img>
 
 ## Element Catalog 

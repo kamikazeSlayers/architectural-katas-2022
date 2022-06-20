@@ -174,7 +174,7 @@ Our goal is to establish a sustainable and diverse talent pipeline that extends 
    </td>
    <td>As a candidate, I want to be able to create, update my career map based on my needs and interests and keep track of my progress.
    </td>
-   <td>Career Roadmap Reporting
+   <td>Career Roadmap Tracking
    </td>
   </tr>
   <tr>

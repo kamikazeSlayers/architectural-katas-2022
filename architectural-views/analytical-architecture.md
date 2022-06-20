@@ -1,6 +1,8 @@
 # Analytical Architecture
 Analytical Architecture for analytical reporting such as projections of future desirable career paths, Offering gaps in a region based on demand, and so on. 
 
+See platform requirements [#4, #5, #9](../requirements/functional-requirements.md#functional-requirements), non-profit requirement [#NP6](../requirements/functional-requirements.md#user-stories), candidate requirement [#C6](../requirements/functional-requirements.md#candidate), community leader requirement [#CL6](../requirements/functional-requirements.md#community-leader), career mentor requirement [#CM3](../requirements/functional-requirements.md#career-mentor) and admin requirement [#A4](../requirements/functional-requirements.md#admin).
+
 ![Analytical Architecture](../images/analytical_architecture.jpeg)
 
 ## Element Catalog 

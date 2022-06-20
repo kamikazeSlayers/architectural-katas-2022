@@ -2,6 +2,8 @@
 Notification that handles push based, email based notification 
 Meeting scheduler managing community meetings, meetings between community leader and non-profits, career mentors and candidates and other ad-hoc meetings for increasing collaboration 
 
+See platform requirement [#1](../requirements/functional-requirements.md#functional-requirements), community leader requirement [#CL2](../requirements/functional-requirements.md#community-leader) and career mentor requirement [#CM5](../requirements/functional-requirements.md#career-mentor).
+
 ![Notification and Meeting Scheduler Architecture](../images/notification-and-meeting-scheduler.jpeg)
 
 ## Element Catalog 
