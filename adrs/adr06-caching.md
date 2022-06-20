@@ -1,7 +1,7 @@
 # Caching
 
 ## Status
-Proposed
+Approved
 
 ## Context
 Ease of use of the Spotlight app is one of the primal requirement for its success. Page load time is an important criteria that determines the quality of the end user experience. To this avail, Spotlight app utilizes caching for almost all its entities.

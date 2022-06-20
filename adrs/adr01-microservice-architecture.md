@@ -1,7 +1,7 @@
 # Microservices Architecture v/s Monolithic Architecture
 
 ## Status
-Proposed
+Approved
 
 ## Context
 The Spotlight App Project is an app that connects non profit organisations on a collaborative platform to make their offerings related to career building, discoverable to candidates of diverse under represented groups.

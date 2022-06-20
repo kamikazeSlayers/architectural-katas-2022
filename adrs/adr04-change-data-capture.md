@@ -1,7 +1,7 @@
 # Change Data Capture (CDC)
 
 ## Status
-Proposed
+Approved
 
 ## Context
 Spotlight platform requires ease-of-use and engagement as hard requirements. For that, search becomes a critical piece to enhance discovery and retrieval of entities in the system that enhance the overall candidate experience and keep him engaged.

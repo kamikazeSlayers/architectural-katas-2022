@@ -1,7 +1,7 @@
 # SQL vs NoSQL Database Considerations
 
 ## Status
-Proposed
+Approved
 
 ## Context
 Choosing the type of database technology depends on the use-case you are building. 
