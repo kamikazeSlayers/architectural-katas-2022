@@ -174,7 +174,7 @@ Our goal is to establish a sustainable and diverse talent pipeline that extends 
    </td>
    <td>As a candidate, I want to be able to create, update my career map based on my needs and interests and keep track of my progress.
    </td>
-   <td>Career Roadmap
+   <td>Career Roadmap Reporting
    </td>
   </tr>
   <tr>
@@ -240,6 +240,14 @@ Our goal is to establish a sustainable and diverse talent pipeline that extends 
    <td>Collaboration
    </td>
   </tr>
+  <tr>
+   <td>CL6
+   </td>
+   <td>As a community leader, I view operational reports, usage and engagement statistics of the communities I manage
+   </td>
+   <td>Reporting
+   </td>
+  </tr>
 </table>
 
 
@@ -276,7 +284,7 @@ Our goal is to establish a sustainable and diverse talent pipeline that extends 
    </td>
    <td>As a career mentor, I need to be able to keep track of my candidates progress, via meetings and viewing the career map.
    </td>
-   <td>Career Roadmap Tracking
+   <td>Career Roadmap Reporting
    </td>
   </tr>
   <tr>
@@ -334,6 +342,14 @@ avoid spam, bring down posts/offerings, disable NPOs/candidates that do not abid
    <td>As an admin, I want to be able to approve NPOs to the platform after the authenticity is verified
    </td>
    <td>NPO onboarding
+   </td>
+  </tr>
+  <tr>
+   <td>A4
+   </td>
+   <td>As an admin, I want to be able to view operational reports and analytics reports for the Spotlight App.
+   </td>
+   <td>Reporting
    </td>
   </tr>
 </table>
