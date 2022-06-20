@@ -44,5 +44,5 @@ Caching is a common architectural paradigm that not only helps reduce the page-l
 
 Given that caching is a central and important part of the system, this added complexity in the architecture is worth the effort as it provides a seamless caching approach and helps in fulfilling the ease-of-use requirement.
 
-### References
+## References
 - [Caching – System Design Concepts](https://www.geeksforgeeks.org/caching-system-design-concept-for-beginners/)
