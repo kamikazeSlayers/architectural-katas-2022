@@ -87,3 +87,6 @@ Below are the key architectural decision records:
 - [Architectural Views](./architectural-views/) - contains detailed architectural views with supporting documentation for every component.
 - [Images](./images) - contains architecture diagrams and other supporting images. 
 - [Requirements](./requirements/) - contains the requirements and architecture characteristics considered.
+
+## Tools Used
+- [Lucid Chart](https://lucid.app/) - We used Lucid Chart for creating all of our architecture diagrams.
