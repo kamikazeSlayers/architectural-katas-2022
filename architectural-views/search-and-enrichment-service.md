@@ -27,3 +27,7 @@ Search service is responsible for faster discovery and retrieval of most entitie
 
 ## Related Views
 - [Database Change Data Consumer Microservice View](../architectural-views/database-change-data-consumer.md)
+
+## Related ADRs
+- [Microservices Architecture](../adrs/adr01-microservice-architecture.md)
+- [Event Driven Architecture](../adrs/adr02-eda-architecture.md)

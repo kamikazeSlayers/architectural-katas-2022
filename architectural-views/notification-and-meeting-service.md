@@ -29,7 +29,6 @@ Push Notification service, as its name suggests, is responsible for sending push
 Push notification keeps track of deviceIds that are required for pushing notifications. This information can be stored in a simple key-value store.
 
 
-
 #### Meeting Scheduler
 Meeting Schedule is responsible for scheduling and managing meetings between non-profits and candidates. It also provides APIs to return meetings/calendar for a given candidate, non-profit, community-leader or career mentor.
 
@@ -39,3 +38,7 @@ Consume messages from the Message Queue
 Determines the meetings required for each message-type. For example, when a community leader is assigned to a non-profit during its onboarding, this service schedules the initial onboarding meeting within 1-2 weeks, schedules a regular meeting at a pre-configured cadence etc.
 
 For tracking the scheduled meetings, Meeting Scheduler service uses a SQL database. For scheduling meetings, this service can optionally leverage third-party services like Google Meet or Zoom to facilitate virtual meetings.
+
+## Related ADRs
+- [Microservices Architecture](../adrs/adr01-microservice-architecture.md)
+- [Event Driven Architecture](../adrs/adr02-eda-architecture.md)

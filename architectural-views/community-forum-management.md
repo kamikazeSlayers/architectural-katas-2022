@@ -28,6 +28,8 @@ Community Forums are the heart of the Spotlight ecosystem that bring together al
 - Search Service makes the common entities in a community (candidates, non profits, services, communities, posts etc.) searchable. It intelligently tags these entities for seamless discovery and retrieval.
 - Search Service uses ElasticSearch for maintaining the search index.
 
- 
 ## Related ADRs 
-
+- [Microservices Architecture](../adrs/adr01-microservice-architecture.md)
+- [Event Driven Architecture](../adrs/adr02-eda-architecture.md)
+- [SQL v/s NoSQL](../adrs/adr03-sql-vs-nosql.md)
+- [Caching using Cache Manager](../adrs/adr06-caching.md)

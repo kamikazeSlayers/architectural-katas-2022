@@ -15,3 +15,6 @@ For NoSQL type of databases, say MongoDB for example, [change streams](https://w
 
 ## Related Views
 - [Search and Enrichment Microservice View](../architectural-views/search-and-enrichment-service.md)
+
+## Related ADRs 
+- [Change Data Capture](../adrs/adr04-change-data-capture.md)
