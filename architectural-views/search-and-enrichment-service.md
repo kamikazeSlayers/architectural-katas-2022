@@ -33,3 +33,4 @@ See platform requirement [#1](../requirements/functional-requirements.md#functio
 ## Related ADRs
 - [Microservices Architecture](../adrs/adr01-microservice-architecture.md)
 - [Event Driven Architecture](../adrs/adr02-eda-architecture.md)
+- [ElasticSearch as the Search Provider](../adrs/adr07-elastic-search_for_search.md)
