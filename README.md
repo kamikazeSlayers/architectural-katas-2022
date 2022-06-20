@@ -24,7 +24,7 @@ Please go through the provided [requirement document](https://docs.google.com/do
 ## Context View
 <img src="images/context_view.jpeg" height="200"></img>
 
-## Architectural Evaluation
+## Architecture Highlights
 The following points outline how does the architecture support some of the hard-requirements of this platform:
 
 ### Ease of Use
