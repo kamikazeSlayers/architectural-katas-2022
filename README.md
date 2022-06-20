@@ -50,7 +50,7 @@ To facilitate analytical reporting, the Spotlight App -
 
 ## Architecture
 Below is a high-level view of the system that fulfills all the requirements (see [below section](#component-architecture-views) describing the components in detail):
-<img src="images/high-level-component-view.jpeg">
+<img src="images/high-level-component-view.png">
 
 ### Component Architecture Views
 The main part of the design proposal is the set of architecture views seen below:
