@@ -94,7 +94,7 @@ The architecture is evaluated against the identified requirements, architectural
 - [ADRs](./adrs/) - contains all architecture decisions.
 - [Architectural Views](./architectural-views/) - contains detailed architectural views with supporting documentation for every component.
 - [Architecture Evaluation](./evaluation/) - contains evaluation of the proposed architecture - cost analysis and validation that all architectural characteristics and requirements are fulfilled.
-- [Images](./resources/images) - contains architecture diagrams and other supporting images. 
+- [Resources](./resources/) - contains lucidchart references, architecture diagrams and other supporting images. 
 - [Requirements](./requirements/) - contains the requirements and architecture characteristics considered.
 
 ## Tools Used
