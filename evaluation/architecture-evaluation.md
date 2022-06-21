@@ -46,11 +46,11 @@
 |:---:|---|---|---|---|:---:|
 | N1 | A1, A3 | Microservices architecture makes it flexible to add support for any additional services that can enhance usability. <br>Search tool enhances user experience and ease of finding resources/ non profits/ candidate information and so on. |-|-| Most of the usability aspects such as easy navigation, simple and intuitive UI, prompts for various actions, and so on must be taken care of when designing and implementing the front end of the application. |
 | N2 | A3 |-|-|-|-|
-| N3 | A1, A2, A7, A8, A12|-|-|While these architectural styles, caching help in scaling to get high throughputs, sufficient load testing and benchmarking, fixing bottlenecks in the implementation and so on must be done to get the desired scale|Setting up a load test environment to benchmark, test and measure would prove effective in building a scalable system|
+| N3 | A1, A2, A7, A8, A11, A12|-|-|While these architectural styles, caching help in scaling to get high throughputs, sufficient load testing and benchmarking, fixing bottlenecks in the implementation and so on must be done to get the desired scale|Setting up a load test environment to benchmark, test and measure would prove effective in building a scalable system|
 | N4 | A4, A5 |- | Using higher or lower capacity storages for cache, database may increase/decrease [cost accordingly](./cost-analysis.md#cost-analysis). | Appropriate storage instances must be allocated considering the volume of data to be stored else, there is risk of insufficient storage and consequent data loss | - |
 | N5 | A2, A3 |-|-|-|-|
-| N6 | A3, A6, A11, A12 |||||
-| N7 | A6, A7, A11, A12, |||||
+| N6 | A3, A6, A12 | Caching at API Gateway level would help faster retrieval of common search query results |-|-|Pagination can be implemented to retrieve the search results and front end should support the same|
+| N7 | A6, A7, A11, A12 |-|-|-|Lazy loading of content, pagination implementation, on the front end and at the API level, could help improve the performance |
 | N8 | A9, A10, A15 |||||
 | N9 | A14 |||||
 | N10 | A1, A2 |||||
