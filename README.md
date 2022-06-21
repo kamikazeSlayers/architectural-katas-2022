@@ -54,13 +54,13 @@ _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/793bda9
 
 ### Component Architecture Views
 The main part of the design proposal is the set of architecture views seen below:
-- [User Onboarding and Management](./architectural-views/user-onboarding-management.md)
-- [Notification and Meeting Scheduler Service](./architectural-views/notification-and-meeting-service.md)
-- [Community Forum Management Architecture](./architectural-views/community-forum-management.md)
-- [Search and Enrichment Service Architecture](./architectural-views/search-and-enrichment-service.md)
+- [User Onboarding and Management](./architectural-views/platform-management-subsystem.md)
+- [Notification and Meeting Scheduler Service](./architectural-views/notification-and-meeting-service-subsystem.md)
+- [Community Forum Management Architecture](./architectural-views/community-forum-management-subsystem.md)
+- [Search and Enrichment Service Architecture](./architectural-views/search-and-enrichment-service-subsystem.md)
 - [Database Change Data Consumer Microservice](./architectural-views/database-change-data-consumer.md)
 - [Operational Reporting](./architectural-views/operational-reports.md)
-- [Analytical Architecture](./architectural-views/analytical-architecture.md)
+- [Analytical Architecture](./architectural-views/analytical-architecture-subsystem.md)
 
 ### Deployment View
 Below is a physical/deployment view for the components seen in the above architectural views:

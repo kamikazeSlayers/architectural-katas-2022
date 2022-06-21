@@ -97,7 +97,7 @@ This assignment is in round-robin basis so as to equally distribute the number o
 The platform must ensure that no community leader handles more than a certain number of non-profits. 
 Sufficient number of community leaders must be ensured by the platform admin.
 
-- Once the community leader is assigned, a welcome email introducing the community leader is sent via the notification manager as described in [Notification and Meeting Scheduler Service](./notification-and-meeting-service.md).
+- Once the community leader is assigned, a welcome email introducing the community leader is sent via the notification manager as described in [Notification and Meeting Scheduler Service](./notification-and-meeting-service-subsystem.md).
 The community leader also assigns role based training via email to the non-profit admins. 
 
 - An introductory meeting is set up based on the availability of the non profit and the community leader which is tracked using the meeting scheduler. 
@@ -122,7 +122,7 @@ This assignment is in round-robin basis so as to equally distribute the number o
 The platform must ensure that no mentor handles more than a certain number of candidates. 
 Sufficient number of career mentors must be ensured by the platform admin.
 
-- Once the mentor is assigned, a welcome email introducing the career mentor is sent via the notification manager as described in [Notification and Meeting Scheduler Service](./notification-and-meeting-service.md).
+- Once the mentor is assigned, a welcome email introducing the career mentor is sent via the notification manager as described in [Notification and Meeting Scheduler Service](./notification-and-meeting-service-subsystem.md).
 
 - An introductory meeting is set up based on the availability of the candidate and the mentor which is tracked using the meeting scheduler. 
 The candidates calendars are also blocked for biweekly 1:1 meetings with the career mentor for progress tracking and mentoring based on the availability of the candidate and the mentor. 
@@ -136,7 +136,7 @@ The candidates calendars are also blocked for biweekly 1:1 meetings with the car
 - Based on the needs assessment, a set of offerings are recommended to the candidate. A recommendation system, which can be intially created using simple tag extaction and later using ML for more refined and accurate recommendations, uses the NPO offerings available and the needs of the candidate to recommend a set of offerings.
 There can be an upper limit on the number of offerings returned as part of this recommendation so as to not overwhelm the candidate. 
 
-- In case none of the offerings recommended by the platform are to the candidates preferences or liking, they can further browse the various offerings, based on NPO names, areas of expertise, etc using the search engine as described in [Search Service](./search-and-enrichment-service.md).
+- In case none of the offerings recommended by the platform are to the candidates preferences or liking, they can further browse the various offerings, based on NPO names, areas of expertise, etc using the search engine as described in [Search Service](./search-and-enrichment-service-subsystem.md).
 The candidate receives a paginated view of the offerings for ease of browsing with powerful search capabilities.
 
 - The candidate then selects the offerings that he wants to register for. The offerings are added to the career roadmap of the candidate with PENDING_APPROVAL status.
@@ -160,7 +160,7 @@ If there are deadlines associated with an offering that the candidate has enroll
 
 - When a candidate road map is completes, a feedback form is sent to the candidate seeking information on how the program helped, if they got a job offer of their choice, and so on. 
 
-- These reports are then used by the [Analytical Architecture](./analytical-architecture.md) to predict career paths for candidates based on the offerings.
+- These reports are then used by the [Analytical Architecture](./analytical-architecture-subsystem.md) to predict career paths for candidates based on the offerings.
 
 #### Feedback on completion 
 On completion of the career roadmap, the candidate is sent a feedback form which is used for analytical purposes.
