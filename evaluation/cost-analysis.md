@@ -33,9 +33,10 @@ This section provides high-level rougth ballpark estimates of the architecture. 
    </td>
    <td>EC2 (t3.large) * 2 = $0.08*30*24 * 2 = $120 per month
 <p>
-MySQL = $200 per month
+
+ MySQL = $200 per month
 <p>
-Azure Active directory - Free tier includes 500k directory objects = $600 per month (730 hours * $0.4 per hour)
+AWS Identity and Access Management is offered free of charge.
    </td>
    <td>$320
    </td>
@@ -45,6 +46,7 @@ Azure Active directory - Free tier includes 500k directory objects = $600 per mo
    </td>
    <td>Platform Management Service EC2 (t3.large) * 2 = $0.08*30*24 * 2 = $120 per month
 <p>
+
 MySQL = $80 per month
 <p>
 Db CDC Consumer (t3.large) * 2 = $120 per month
@@ -109,7 +111,7 @@ Feed / Ranking cache manager EC2 (t3.large) * 2 = $0.08*30*24 * 2 = $120 per mon
    </td>
    <td>VPC = $90 per month
 <p>
-Load Balancing = 90 per month
+Load Balancer = 90 per month
 <p>
 Route 53 = $180 per month
 <p>
