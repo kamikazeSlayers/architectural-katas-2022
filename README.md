@@ -98,5 +98,4 @@ The architecture is evaluated against the identified requirements, architectural
 - [Requirements](./requirements/) - contains the requirements and architecture characteristics considered.
 
 ## Tools Used
-- [Lucid Chart](https://lucid.app/) - We used Lucid Chart for creating all of our architecture diagrams.
-  [Here](./resources/lucidchart-references.md) is the document that lists all lucid chart links.
+- [Lucid Chart](https://lucid.app/) - We used Lucid Chart for creating all of our architecture diagrams. <br/>[Here](./resources/lucidchart-references.md) is the document that lists all lucid chart links.
