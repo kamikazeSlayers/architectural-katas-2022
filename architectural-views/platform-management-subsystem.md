@@ -168,7 +168,18 @@ If there are deadlines associated with an offering that the candidate has enroll
 
 #### Feedback on completion 
 On completion of the career roadmap, the candidate is sent a feedback form which is used for analytical purposes.
- 
+
+## Specific Architectural Elements
+
+#### Content Delivery Network
+
+#### Caching using Cache Manager
+
+#### Object store
+
+1. User management information
+2. Non profit offerings
+
 ## Related ADRs 
 - [Microservices Architecture](../adrs/adr01-microservice-architecture.md)
 - [SQL v/s NoSQL](../adrs/adr03-sql-vs-nosql.md)
