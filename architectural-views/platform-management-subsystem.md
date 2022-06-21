@@ -97,7 +97,7 @@ This assignment is in round-robin basis so as to equally distribute the number o
 The platform must ensure that no community leader handles more than a certain number of non-profits. 
 Sufficient number of community leaders must be ensured by the platform admin.
 
-- Once the community leader is assigned, a welcome email introducing the community leader is sent via the notification manager as described in [Notification and Meeting Scheduler Service](./notification-and-meeting-service-subsystem.md).
+- Once the community leader is assigned, a welcome email introducing the community leader is sent via the notification manager as described in [Notification and Meeting Scheduler Subsystem](./notification-and-meeting-scheduler-subsystem.md).
 The community leader also assigns role based training via email to the non-profit admins. 
 
 - An introductory meeting is set up based on the availability of the non profit and the community leader which is tracked using the meeting scheduler. 
@@ -122,7 +122,7 @@ This assignment is in round-robin basis so as to equally distribute the number o
 The platform must ensure that no mentor handles more than a certain number of candidates. 
 Sufficient number of career mentors must be ensured by the platform admin.
 
-- Once the mentor is assigned, a welcome email introducing the career mentor is sent via the notification manager as described in [Notification and Meeting Scheduler Service](./notification-and-meeting-service-subsystem.md).
+- Once the mentor is assigned, a welcome email introducing the career mentor is sent via the notification manager as described in [Notification and Meeting Scheduler Subsystem](./notification-and-meeting-scheduler-subsystem.md).
 
 - An introductory meeting is set up based on the availability of the candidate and the mentor which is tracked using the meeting scheduler. 
 The candidates calendars are also blocked for biweekly 1:1 meetings with the career mentor for progress tracking and mentoring based on the availability of the candidate and the mentor. 

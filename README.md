@@ -66,7 +66,7 @@ _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/793bda9
 ### Architecture Components
 The Spotlight architecture is built using the following architecture components:
 - [Platform Management Subsystem](./architectural-views/platform-management-subsystem.md)
-- [Notification and Meeting Scheduler Subsystem](./architectural-views/notification-and-meeting-service-subsystem.md)
+- [Notification and Meeting Scheduler Subsystem](./architectural-views/notification-and-meeting-scheduler-subsystem.md)
 - [Community Forum Management Subsystem](./architectural-views/community-forum-management-subsystem.md)
 - [Search Subsystem](./architectural-views/search-subsystem.md)
 - [Analytics Subsystem](./architectural-views/analytical-architecture-subsystem.md)

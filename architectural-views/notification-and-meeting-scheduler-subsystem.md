@@ -1,6 +1,8 @@
-# Notification and Meeting Scheduler Service
-Notification servuce handles push based (mobile & web) and email based notifications.
-Meeting scheduler manages community meetings, meetings between community leader and non-profits, career mentors and candidates and other ad-hoc meetings for increasing collaboration.
+# Notification and Meeting Scheduler Subsystem
+
+This subsystem comprises of the following major components:
+- **Notification Service**: Handles push based (mobile & web) and email based notifications.
+- **Meeting Scheduler**: Manages community meetings, meetings between community leader and non-profits, career mentors and candidates and other ad-hoc meetings for increasing collaboration.
 
 See platform requirement [#1](../requirements/functional-requirements.md#functional-requirements), community leader requirement [#CL2](../requirements/functional-requirements.md#community-leader) and career mentor requirement [#CM5](../requirements/functional-requirements.md#career-mentor).
 
