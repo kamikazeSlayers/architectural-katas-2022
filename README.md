@@ -74,12 +74,11 @@ The Spotlight architecture is built using the following architecture components:
 - [Operational Reporting](./architectural-views/operational-reports.md)
 
 ### Deployment
-Below is a physical/deployment view for the components seen in the above architectural views:
+Below is a physical/deployment view for the components seen in the above architectural views. For more details, see [AWS deployment view](./architectural-views/physical-view-aws-deployment.md).
 
-| [AWS deployment view](./architectural-views/physical-view-aws-deployment.md) |
-|---|
-| <img src="resources/images/physical_view.jpeg" width="500"> |
-| _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/9d627d16-2a61-4d5e-8ea5-e4ffeb45c39b)._ |
+<img src="resources/images/physical_view.jpeg" width="500">
+
+_Created using Lucidchart. Refer [here](https://lucid.app/documents/view/9d627d16-2a61-4d5e-8ea5-e4ffeb45c39b)._
 
 ### Observability
 Observability plays an indispensible role in providing the tools to effectively monitor the usage, performance and health of the system. Spotlight App makes good use of all three pillars involved in Observability - Metrics & Monitoring, Logging and Distributed Tracing. For more details, see [Observability: Metrics & Monitoring, Logging and Distributed Tracing](./architectural-views/observability.md).
