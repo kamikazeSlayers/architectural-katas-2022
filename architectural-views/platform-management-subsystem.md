@@ -29,6 +29,8 @@ In addition, the roles for the user is also maintained by the user management da
 
 - All user information is stored in cache for quick retrieval. 
 
+- [AWS Identity and Access Management](https://aws.amazon.com/iam/) offering can be levaraged for implementing user management service.
+
 ### Networking Hub Functionality & Process
 
 #### Non-Profit Organisation Onboarding
