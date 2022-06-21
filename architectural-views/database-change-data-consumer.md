@@ -15,7 +15,7 @@ _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b139e1e
 - Shall leverage [Kafka Connect](https://docs.confluent.io/platform/current/connect/index.html) powered by [Debezium](https://debezium.io/) for ingesting change streams from different databases. Debezium is an open source distributed platform for change data capture whereas Kafka Connect is a free, open-source component of Apache Kafka that works as a centralized data hub for simple data integration between databases.
 
 ## Related Views
-- [Search and Enrichment Microservice View](../architectural-views/search-and-enrichment-service.md)
+- [Search and Enrichment Microservice View](./search-and-enrichment-service-subsystem.md)
 
 ## Related ADRs 
 - [Change Data Capture](../adrs/adr04-change-data-capture.md)
