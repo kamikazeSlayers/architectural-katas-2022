@@ -155,8 +155,11 @@ Object Store (assuming 10 million requests) = $0.005 * 10,000 = $50
 
 ## References
 - [AWS EC2 pricing calculator](https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/amazon-ec2-cost-breakdown.html)
-- [AWS Reserved Nodes](https://aws.amazon.com/elasticache/pricing/#Reserved_Nodes)
 - [Azure Active Directory pricing calculator](https://azure.microsoft.com/en-in/pricing/calculator/?&ef_id=CjwKCAjwtcCVBhA0EiwAT1fY70WE_XarbWVfsrJjXCkYgCwdEMmJIf9S1H1_xo2NUFuucTL5w84sBBoCyNoQAvD_BwE:G:s&OCID=AID2200195_SEM_CjwKCAjwtcCVBhA0EiwAT1fY70WE_XarbWVfsrJjXCkYgCwdEMmJIf9S1H1_xo2NUFuucTL5w84sBBoCyNoQAvD_BwE:G:s&gclid=CjwKCAjwtcCVBhA0EiwAT1fY70WE_XarbWVfsrJjXCkYgCwdEMmJIf9S1H1_xo2NUFuucTL5w84sBBoCyNoQAvD_BwE)
 - [Price comparison of Elasticsearch and Algolia Search](https://www.prefixbox.com/blog/algolia-vs-elasticsearch/)
 - [AWS Redshift pricing](https://aws.amazon.com/redshift/pricing/)
 - [AWS SQS Pricing](https://aws.amazon.com/sqs/pricing/)
+- [AWS Elasticache pricing](https://aws.amazon.com/elasticache/pricing)
+- [AWS EC2 Reserved Instances](https://aws.amazon.com/ec2/pricing/reserved-instances/)
+- [AWS Reserved Instances overview](https://aws.amazon.com/aws-cost-management/aws-cost-optimization/reserved-instances/)
+- [AWS Elasticache Reserved Instances](https://aws.amazon.com/elasticache/reserved-cache-nodes/)
