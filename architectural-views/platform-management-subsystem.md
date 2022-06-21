@@ -160,7 +160,7 @@ If there are deadlines associated with an offering that the candidate has enroll
 
 - When a candidate road map is completes, a feedback form is sent to the candidate seeking information on how the program helped, if they got a job offer of their choice, and so on. 
 
-- These reports are then used by the [Analytical Architecture](./analytical-architecture-subsystem.md) to predict career paths for candidates based on the offerings.
+- These reports are then used by the [Analytics Subsytem](./analytical-architecture-subsystem.md) to predict career paths for candidates based on the offerings.
 
 #### Feedback on completion 
 On completion of the career roadmap, the candidate is sent a feedback form which is used for analytical purposes.
