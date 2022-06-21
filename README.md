@@ -50,6 +50,7 @@ To facilitate analytical reporting, the Spotlight App -
 ## Architecture
 Below is a high-level view of the system that fulfills all the requirements (see [below section](#component-architecture-views) describing the components in detail):
 <img src="images/high-level-component-view.png">
+_Created using Lucidchart. Refer [here](https://lucid.app/documents/view/793bda92-8670-4f89-a0e1-4043f0e5135d)._
 
 ### Component Architecture Views
 The main part of the design proposal is the set of architecture views seen below:
@@ -67,6 +68,7 @@ Below is a physical/deployment view for the components seen in the above archite
 | [AWS deployment view](./architectural-views/physical-view-aws-deployment.md) |
 |---|
 | <img src="images/physical_view.jpeg" width="500"> |
+| _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/9d627d16-2a61-4d5e-8ea5-e4ffeb45c39b)._ |
 
 ### Observability
 Observability plays an indispensible role in providing the tools to effectively monitor the usage, performance and health of the system. Spotlight App makes good use of all three pillars involved in Observability - Metrics & Monitoring, Logging and Distributed Tracing. For more details, see [Observability: Metrics & Monitoring, Logging and Distributed Tracing](./architectural-views/observability.md).

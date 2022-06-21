@@ -5,6 +5,7 @@ For SQL type of databases, say MySQL for example, binary log replication can be 
 For NoSQL type of databases, say MongoDB for example, [change streams](https://www.mongodb.com/docs/manual/changeStreams/) can be leveraged for CDC.
 
 <img src="../images/db-change-data-consumer-architecture.jpeg"></img>
+_Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b139e1e3-a37a-403b-9390-d198c7e7ab27)._
 
 ## Element Catalog 
 
