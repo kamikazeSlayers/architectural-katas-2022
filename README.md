@@ -73,7 +73,7 @@ The Spotlight architecture is built using the following architecture components:
 - [Database Change Data Consumer Microservice](./architectural-views/database-change-data-consumer.md)
 - [Operational Reporting](./architectural-views/operational-reports.md)
 
-### Deployment View
+### Deployment
 Below is a physical/deployment view for the components seen in the above architectural views:
 
 | [AWS deployment view](./architectural-views/physical-view-aws-deployment.md) |
