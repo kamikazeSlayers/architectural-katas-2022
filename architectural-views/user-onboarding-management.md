@@ -1,6 +1,6 @@
 # User Management, Non-profit and Candidate Onboarding and Career Tracking
 
-![User onboarding and management](../images/platform_and_user_management.jpeg)
+![User onboarding and management](../resources/images/platform_and_user_management.jpeg)
 
 See platform requirements [#1, #2, #8](../requirements/functional-requirements.md#functional-requirements), non-profit requirement [#NP1](../requirements/functional-requirements.md#user-stories), candidate requirements [#C1, #C2, #C3, C6](../requirements/functional-requirements.md#candidate), community leader requirement [#CL1, CL#2](../requirements/functional-requirements.md#community-leader), career mentor requirements [#CM1, #CM2](../requirements/functional-requirements.md#career-mentor) and admin requirements [#A2, #A3](../requirements/functional-requirements.md#admin).
 _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/cc0f6e76-a2f8-4b24-ae71-d491d22dbe3f)._
@@ -29,7 +29,7 @@ In addition, the roles for the user is also maintained by the user management da
 
 #### Non-Profit Organisation Onboarding
 
-<img src="../images/onboarding_flow_chart.jpeg" height="600"></img>
+<img src="../resources/images/onboarding_flow_chart.jpeg" height="600"></img>
 
 - The platform manager stores all information related to the Non profit, candidates enrolled for various non profit offerings, community leader assigned to a non-profit, etc.
 
@@ -75,7 +75,7 @@ stored in the NPO's offering data in the document db.
 
 #### Community and Community Leader Assignment
 
-<img src="../images/community_leader_assignment_platform_management_service.jpeg" height="500"></img>
+<img src="../resources/images/community_leader_assignment_platform_management_service.jpeg" height="500"></img>
 
 - A community is an independent entity that a community forum and a community leader. 
 
@@ -127,7 +127,7 @@ The candidates calendars are also blocked for biweekly 1:1 meetings with the car
 
 | Current View | Future View |
 |---|---|
-| <img src="../images/needs_matching.jpeg" width="500"></img> | <img src="../images/needs_matching_future.jpeg" width="500"></img> |
+| <img src="../resources/images/needs_matching.jpeg" width="500"></img> | <img src="../resources/images/needs_matching_future.jpeg" width="500"></img> |
 
 - Based on the needs assessment, a set of offerings are recommended to the candidate. A recommendation system, which can be intially created using simple tag extaction and later using ML for more refined and accurate recommendations, uses the NPO offerings available and the needs of the candidate to recommend a set of offerings.
 There can be an upper limit on the number of offerings returned as part of this recommendation so as to not overwhelm the candidate. 

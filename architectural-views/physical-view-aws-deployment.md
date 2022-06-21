@@ -1,7 +1,7 @@
 # Physical View
 AWS Deployment architecture. This view shows how the services and resources can be deployed in AWS infrastructure. 
 
-![Physical View Architecture](../images/physical_view.jpeg)
+![Physical View Architecture](../resources/images/physical_view.jpeg)
 _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/9d627d16-2a61-4d5e-8ea5-e4ffeb45c39b)._
 
 ## Element Catalog 

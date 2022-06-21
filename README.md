@@ -1,11 +1,11 @@
 # The Spotlight App Project - Illuminate Possibilities
 
-<img src="images/spotlight.jpeg"></img>
+<img src="resources/images/spotlight.jpeg"></img>
 
 ## Introduction
 Diversity Cyber Council is a 501c3 Non-Profit that serves under-represented demographics in the tech industry by facilitating education, training, and staffing opportunities to establish a sustainable and diverse talent pipeline to the workforce. Their vision is to enhance inclusion and representation in the tech industry through training, mentoring, networking, and visibility programs. Their goal is to establish a sustainable and diverse talent pipeline that extends career equity to under-represented demographics by providing access to competent training programs that lead to direct employment opportunities. 
 
-<img src="images/spotlight-project-header.png"></img>
+<img src="resources/images/spotlight-project-header.png"></img>
 
 The Spotlight App Project is a sustained effort to amass a coalition of nonprofits in order to address specific needs within the communities, by leveraging a centralized platform as the base of operations to collaborate and make a collective impact. 
 
@@ -21,7 +21,7 @@ Please go through the provided [requirement document](https://docs.google.com/do
 - [Architecture Characteristics](./requirements/architecture-characteristics.md): The architecture design must incorporate these characteristics along with the above mentioned functional requirements.
 
 ## Context View
-<img src="images/context_view.jpeg" height="200"></img>
+<img src="resources/images/context_view.jpeg" height="200"></img>
 
 ## Architecture Highlights
 The following points outline how does the architecture support some of the hard-requirements of this platform:
@@ -49,7 +49,7 @@ To facilitate analytical reporting, the Spotlight App -
 
 ## Architecture
 Below is a high-level view of the system that fulfills all the requirements (see [below section](#component-architecture-views) describing the components in detail):
-<img src="images/high-level-component-view.png">
+<img src="resources/images/high-level-component-view.png">
 _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/793bda92-8670-4f89-a0e1-4043f0e5135d)._
 
 ### Component Architecture Views
@@ -67,7 +67,7 @@ Below is a physical/deployment view for the components seen in the above archite
 
 | [AWS deployment view](./architectural-views/physical-view-aws-deployment.md) |
 |---|
-| <img src="images/physical_view.jpeg" width="500"> |
+| <img src="resources/images/physical_view.jpeg" width="500"> |
 | _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/9d627d16-2a61-4d5e-8ea5-e4ffeb45c39b)._ |
 
 ### Observability

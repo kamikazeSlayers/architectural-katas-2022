@@ -4,7 +4,7 @@ This service is specifically responsible for reading those change streams from r
 For SQL type of databases, say MySQL for example, binary log replication can be used to track changes for CDC.
 For NoSQL type of databases, say MongoDB for example, [change streams](https://www.mongodb.com/docs/manual/changeStreams/) can be leveraged for CDC.
 
-<img src="../images/db-change-data-consumer-architecture.jpeg"></img>
+<img src="../resources/images/db-change-data-consumer-architecture.jpeg"></img>
 _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b139e1e3-a37a-403b-9390-d198c7e7ab27)._
 
 ## Element Catalog 
