@@ -7,7 +7,7 @@ See platform requirement [#9](../requirements/functional-requirements.md#functio
 
 #### API Endpoint
 
-The platform management service exposes endpoints to retrieve operational reports from the database such as: <br />
+The platform management service exposes endpoints to retrieve operational reports from the database such as:
 - Number of candidates registered for an offering
 - Number of completed career roadmaps
 - Number of offerings provided by an NPO

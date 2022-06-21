@@ -47,15 +47,15 @@ In addition, the roles for the user is also maintained by the user management da
 #### Non-Profit offering creation
 - A non profit offering is intended to help candidates belonging to the under-represented communities in achieving fulfilling careers.
 
-- The offerings can belong to a number of categories such as (but not limited to): <br />
-Resume Writing Services <br />
-Interview Prep	Free Business Attire <br />
-Apprenticeship Program Registration	Training Program Registration <br />
-College & University Registration <br />
-Free Grocery & Meal Services <br />
-Discounted Rent & Housing Services <br />
-Daycare/Child Care Services <br />
-Mentorship/Career Advocate Services<br />
+- The offerings can belong to a number of categories such as (but not limited to):
+  - Resume Writing Services
+  - Interview Prep Free Business Attire
+  - Apprenticeship Program Registration	Training Program Registration
+  - College & University Registration
+  - Free Grocery & Meal Services
+  - Discounted Rent & Housing Services
+  - Daycare/Child Care Services
+  - Mentorship/Career Advocate Services
 
 - An offering can contain links to the non-profit website where the candidate can register for programs offered by the NPO, 
 or links to training material on a third party website, links to resources, downloadable texts, pdfs, that the candidate needs to complete, 

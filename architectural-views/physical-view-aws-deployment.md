@@ -4,10 +4,10 @@ AWS Deployment architecture. This view shows how the services and resources can 
 ![Physical View Architecture](../images/physical_view.jpeg)
 
 ## Element Catalog 
-Multiple availability zones <br />
-API Gateway <br />
-Load Balancers <br />
-AWS MSK fully managed Kafka service <br />
+- Multiple availability zones
+- API Gateway
+- Load Balancers
+- AWS MSK fully managed Kafka service
 
 #### Multiple availability zones
 AWS recommends that a customer should run their workloads in more than one availability zone (AZ). 
