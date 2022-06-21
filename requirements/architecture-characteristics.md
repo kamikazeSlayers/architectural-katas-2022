@@ -2,7 +2,7 @@
 In this document, we list the architecture characteristics that we considered important for the system.
 
 ## Availability
-The system must be highly available and strive for atleast 99.9% ("two nines") availability. This translates to around 8.77 hours of downtime in a year. Even during downtime, the system should handle failures gracefully and not compromise on the end-user's experience.
+The system must be highly available and strive for atleast 99.9% ("three nines") availability. This translates to around 8.77 hours of downtime in a year. Even during downtime, the system should handle failures gracefully and not compromise on the end-user's experience.
 
 ## Security
 The system should be secure and not risk any leakage of personal identifiable information (PII). The third party authorization providers should be carefully considered and provide necessary support when and if required.
