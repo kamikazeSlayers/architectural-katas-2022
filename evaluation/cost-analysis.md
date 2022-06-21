@@ -17,44 +17,13 @@ This section provides high-level rougth ballpark estimates of the architecture. 
 
 ### Cost Analysis 
 
-#### Summary
-
-
-#### Detailed analysis
-
-<!-- Output copied to clipboard! -->
-
-<!-----
-
-Yay, no errors, warnings, or alerts!
-
-Conversion time: 0.449 seconds.
-
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β33
-* Mon Jun 20 2022 12:31:46 GMT-0700 (PDT)
-* Source doc: Untitled document
-* Tables are currently converted to HTML tables.
------>
-
-
-
 <table>
   <tr>
-   <td>Subsystem
+   <td><b>Subsystem</b>
    </td>
-   <td>Ballpark estimate
+   <td><b>Ballpark estimate</b>
    </td>
-   <td>Monthly Cost ($)
+   <td><b>Monthly Cost ($)</b>
    </td>
   </tr>
   <tr>
@@ -152,27 +121,27 @@ Object Store (assuming 10 million requests) = $0.005 * 10,000 = $50
    </td>
   </tr>
   <tr>
-   <td>Total costs with on-demand infrastructure provisioning
+   <td><b>Total costs with on-demand infrastructure provisioning</b>
    </td>
    <td>
    </td>
-   <td>$2250
+   <td><b>$2250</b>
    </td>
   </tr>
   <tr>
-   <td>Conservative savings with Reserved Instances
+   <td><b>Conservative savings with Reserved Instances</b>
    </td>
    <td>
    </td>
-   <td>-$900 (assuming 40%)
+   <td><b>-$675 (assuming 30%)</b>
    </td>
   </tr>
   <tr>
-   <td>Total ballpark cost with reserved instances
+   <td><b>Total cost with reserved instances (ballpark)</b>
    </td>
    <td>
    </td>
-   <td>$1350
+   <td><b>$1575</b>
    </td>
   </tr>
 </table>
