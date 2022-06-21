@@ -175,6 +175,8 @@ On completion of the career roadmap, the candidate is sent a feedback form which
 
 #### Caching using Cache Manager
 
+#### Object store
+
 1. User management information
 2. Non profit offerings
 
