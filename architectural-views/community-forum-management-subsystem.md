@@ -36,3 +36,4 @@ _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/6ac4f17
 - [Event Driven Architecture](../adrs/adr02-eda-architecture.md)
 - [SQL v/s NoSQL](../adrs/adr03-sql-vs-nosql.md)
 - [Caching using Cache Manager](../adrs/adr06-caching.md)
+- [ElasticSearch as the Search Provider](../adrs/adr07-elastic-search_for_search.md)
