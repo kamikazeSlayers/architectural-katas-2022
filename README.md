@@ -81,6 +81,11 @@ Below are the key architectural decision records:
 - [Caching using Cache Manager](adrs/adr06-caching.md)
 - [ElasticSearch as the Search Provider](adrs/adr07-elastic-search_for_search.md)
 
+## Architecture Evaluation
+The architecture is evaluated against the identified requirements, architectural characteristics and costs.
+- [Evaluation of the architecture against requirements and architectural characteristics](evaluation/architecture-evaluation.md)
+- [Cost Analysis](evaluation/cost-analysis.md)
+
 ---
 
 ## Directory Structure
