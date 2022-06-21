@@ -1,4 +1,8 @@
-# User Management, Non-profit and Candidate Onboarding and Career Tracking
+# Platform Management Subsystem
+This subsystem is responsible for managing the following domains:
+- User Management
+- Onboarding of Non-Profit Organizations and Candidates
+- Candidate Career Tracking
 
 ![User onboarding and management](../resources/images/platform_and_user_management.jpeg)
 _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/cc0f6e76-a2f8-4b24-ae71-d491d22dbe3f)._
