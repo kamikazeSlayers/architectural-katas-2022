@@ -86,6 +86,7 @@ Below are the key architectural decision records:
 ## Directory Structure
 - [ADRs](./adrs/) - contains all architecture decisions.
 - [Architectural Views](./architectural-views/) - contains detailed architectural views with supporting documentation for every component.
+- [Architecture Evaluation](./evaluation/) - contains evaluation of the proposed architecture - cost analysis and validation that all architectural characteristics and requirements are fulfilled.
 - [Images](./images) - contains architecture diagrams and other supporting images. 
 - [Requirements](./requirements/) - contains the requirements and architecture characteristics considered.
 
