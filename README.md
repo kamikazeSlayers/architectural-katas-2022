@@ -48,27 +48,37 @@ To facilitate analytical reporting, the Spotlight App -
 - Is powered by machine learning to perform predictive analysis, data classification etc. to plan for future requirements, gaps in the services and so on.
 
 ## Architecture
-Below is a high-level view of the system that fulfills all the requirements (see [below section](#component-architecture-views) describing the components in detail):
-<img src="resources/images/high-level-component-view.png">
+
+### Architecture Subsystems
+The Spotlight architecture is built using the following architecture subsystems:
+
+<img src="resources/images/spotlight-architecture-subsystems.png">
+
 _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/793bda92-8670-4f89-a0e1-4043f0e5135d)._
 
-### Component Architecture Views
-The main part of the design proposal is the set of architecture views seen below:
-- [User Onboarding and Management](./architectural-views/platform-management-subsystem.md)
-- [Notification and Meeting Scheduler Service](./architectural-views/notification-and-meeting-service-subsystem.md)
-- [Community Forum Management Architecture](./architectural-views/community-forum-management-subsystem.md)
-- [Search and Enrichment Service Architecture](./architectural-views/search-and-enrichment-service-subsystem.md)
+### Architecture Overview
+An architecture overview detailing all high-level involved components is presented below. See [Architecture Components](#architecture-components) below for more details.
+
+<img src="resources/images/spotlight-architecture.png">
+
+_Created using Lucidchart. Refer [here](https://lucid.app/documents/view/793bda92-8670-4f89-a0e1-4043f0e5135d)._
+
+### Architecture Components
+The Spotlight architecture is built using the following architecture components:
+- [Platform Management Subsystem](./architectural-views/platform-management-subsystem.md)
+- [Notification and Meeting Scheduler Subsystem](./architectural-views/notification-and-meeting-scheduler-subsystem.md)
+- [Community Forum Management Subsystem](./architectural-views/community-forum-management-subsystem.md)
+- [Search Subsystem](./architectural-views/search-subsystem.md)
+- [Analytics Subsystem](./architectural-views/analytical-architecture-subsystem.md)
 - [Database Change Data Consumer Microservice](./architectural-views/database-change-data-consumer.md)
 - [Operational Reporting](./architectural-views/operational-reports.md)
-- [Analytical Architecture](./architectural-views/analytical-architecture-subsystem.md)
 
-### Deployment View
-Below is a physical/deployment view for the components seen in the above architectural views:
+### Deployment
+Below is a physical/deployment view for the components seen in the above architectural views. For more details, see [AWS deployment view](./architectural-views/physical-view-aws-deployment.md).
 
-| [AWS deployment view](./architectural-views/physical-view-aws-deployment.md) |
-|---|
-| <img src="resources/images/physical_view.jpeg" width="500"> |
-| _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/9d627d16-2a61-4d5e-8ea5-e4ffeb45c39b)._ |
+<img src="resources/images/physical_view.jpeg" width="500">
+
+_Created using Lucidchart. Refer [here](https://lucid.app/documents/view/9d627d16-2a61-4d5e-8ea5-e4ffeb45c39b)._
 
 ### Observability
 Observability plays an indispensible role in providing the tools to effectively monitor the usage, performance and health of the system. Spotlight App makes good use of all three pillars involved in Observability - Metrics & Monitoring, Logging and Distributed Tracing. For more details, see [Observability: Metrics & Monitoring, Logging and Distributed Tracing](./architectural-views/observability.md).

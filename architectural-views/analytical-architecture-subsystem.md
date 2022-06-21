@@ -1,9 +1,9 @@
-# Analytical Architecture
-Analytical Architecture for analytical reporting such as projections of future desirable career paths, Offering gaps in a region based on demand, and so on. 
+# Analytics Subsystem
+Analytics Subsystem is responsible for analytical reporting such as projections of future desirable career paths, offering gaps in a region based on demand, and so on. 
 
 See platform requirements [#4, #5, #9](../requirements/functional-requirements.md#functional-requirements), non-profit requirement [#NP6](../requirements/functional-requirements.md#user-stories), candidate requirement [#C6](../requirements/functional-requirements.md#candidate), community leader requirement [#CL6](../requirements/functional-requirements.md#community-leader), career mentor requirement [#CM3](../requirements/functional-requirements.md#career-mentor) and admin requirement [#A4](../requirements/functional-requirements.md#admin).
 
-![Analytical Architecture](../resources/images/analytical_architecture.jpeg)
+![Analytics Subsystem Architecture](../resources/images/analytical_architecture.jpeg)
 _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/89c19b66-2890-425f-b6f1-1ebba1845036)._
 
 ## Element Catalog 

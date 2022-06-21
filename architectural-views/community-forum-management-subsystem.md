@@ -1,4 +1,4 @@
-# Community Forum Management
+# Community Forum Management Subsystem
 Community Forums are the heart of the Spotlight ecosystem that bring together all the involved users.  
 
 See platform requirement [#1](../requirements/functional-requirements.md#functional-requirements) and non-profit requirement [#NP4](../requirements/functional-requirements.md#user-stories), candidate requirements [#C4, #C5](../requirements/functional-requirements.md#candidate), community leader requirement [#CL5](../requirements/functional-requirements.md#community-leader), career mentor requirement [#CM5](../requirements/functional-requirements.md#career-mentor) and admin requirements [#A1, #A2](../requirements/functional-requirements.md#admin).
@@ -36,3 +36,4 @@ _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/6ac4f17
 - [Event Driven Architecture](../adrs/adr02-eda-architecture.md)
 - [SQL v/s NoSQL](../adrs/adr03-sql-vs-nosql.md)
 - [Caching using Cache Manager](../adrs/adr06-caching.md)
+- [ElasticSearch as the Search Provider](../adrs/adr07-elastic-search_for_search.md)
