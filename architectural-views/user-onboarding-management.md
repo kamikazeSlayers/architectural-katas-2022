@@ -30,6 +30,7 @@ In addition, the roles for the user is also maintained by the user management da
 #### Non-Profit Organisation Onboarding
 
 <img src="../resources/images/onboarding_flow_chart.jpeg" height="600"></img>
+
 _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b65bf118-1b70-4ded-8e78-bd304450fd9b)._
 
 - The platform manager stores all information related to the Non profit, candidates enrolled for various non profit offerings, community leader assigned to a non-profit, etc.
@@ -77,6 +78,7 @@ stored in the NPO's offering data in the document db.
 #### Community and Community Leader Assignment
 
 <img src="../resources/images/community_leader_assignment_platform_management_service.jpeg" height="500"></img>
+
 _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b65bf118-1b70-4ded-8e78-bd304450fd9b)._
 
 - A community is an independent entity that a community forum and a community leader. 
