@@ -51,13 +51,16 @@ To facilitate analytical reporting, the Spotlight App -
 
 ### Architecture Subsystems
 The Spotlight architecture is built using the following architecture subsystems:
+
 <img src="resources/images/spotlight-architecture-subsystems.png" height="500">
+
 _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/793bda92-8670-4f89-a0e1-4043f0e5135d)._
 
 ### Architecture Overview
 An architecture overview detailing all high-level involved components is presented below. See [Architecture Components](#architecture-components) below for more details.
 
 <img src="resources/images/spotlight-architecture.png">
+
 _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/793bda92-8670-4f89-a0e1-4043f0e5135d)._
 
 ### Architecture Components
