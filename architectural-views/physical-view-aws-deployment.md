@@ -9,7 +9,6 @@ _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/9d627d1
 - API Gateway
 - Load Balancers
 - AWS MSK fully managed Kafka service
-- Multiple AZ Deployment
 
 #### Multiple availability zones
 AWS recommends that a customer should run their workloads in more than one availability zone (AZ). 
