@@ -136,7 +136,7 @@ The candidates calendars are also blocked for biweekly 1:1 meetings with the car
 - Based on the needs assessment, a set of offerings are recommended to the candidate. A recommendation system, which can be intially created using simple tag extaction and later using ML for more refined and accurate recommendations, uses the NPO offerings available and the needs of the candidate to recommend a set of offerings.
 There can be an upper limit on the number of offerings returned as part of this recommendation so as to not overwhelm the candidate. 
 
-- In case none of the offerings recommended by the platform are to the candidates preferences or liking, they can further browse the various offerings, based on NPO names, areas of expertise, etc using the search engine as described in [Search Service](./search-and-enrichment-service-subsystem.md).
+- In case none of the offerings recommended by the platform are to the candidates preferences or liking, they can further browse the various offerings, based on NPO names, areas of expertise, etc using the search engine as described in [Search Subsystem](./search-subsystem.md).
 The candidate receives a paginated view of the offerings for ease of browsing with powerful search capabilities.
 
 - The candidate then selects the offerings that he wants to register for. The offerings are added to the career roadmap of the candidate with PENDING_APPROVAL status.

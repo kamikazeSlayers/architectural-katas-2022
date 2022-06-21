@@ -68,11 +68,10 @@ The Spotlight architecture is built using the following architecture components:
 - [Platform Management Subsystem](./architectural-views/platform-management-subsystem.md)
 - [Notification and Meeting Scheduler Subsystem](./architectural-views/notification-and-meeting-service-subsystem.md)
 - [Community Forum Management Subsystem](./architectural-views/community-forum-management-subsystem.md)
-- [Search and Enrichment Service Subsystem](./architectural-views/search-and-enrichment-service-subsystem.md)
+- [Search Subsystem](./architectural-views/search-subsystem.md)
 - [Analytics Subsystem](./architectural-views/analytical-architecture-subsystem.md)
 - [Database Change Data Consumer Microservice](./architectural-views/database-change-data-consumer.md)
 - [Operational Reporting](./architectural-views/operational-reports.md)
-
 
 ### Deployment View
 Below is a physical/deployment view for the components seen in the above architectural views:

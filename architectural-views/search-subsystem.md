@@ -1,5 +1,9 @@
-# Search and Enrichment Microservice
-Search service is responsible for faster discovery and retrieval of most entities in the system. The candidates may search using the below criteria (not limited to the below list):
+# Search Subsystem
+Search subsystem comprises of the following major micro-services:
+- Search Service
+- Enrichment Service
+
+Search subsystem is responsible for faster discovery and retrieval of most entities in the system. The candidates may search using the below criteria (not limited to the below list):
 - Non-profit names, locations
 - Interesting and relevant offerings provided by any non-profit
 - Communities
@@ -8,7 +12,7 @@ Search service is responsible for faster discovery and retrieval of most entitie
 
 See platform requirement [#1](../requirements/functional-requirements.md#functional-requirements) and non-profit requirement [#NP3](../requirements/functional-requirements.md#user-stories), candidate requirements [#C3, #C7](../requirements/functional-requirements.md#candidate), community leader requirement [#CL3](../requirements/functional-requirements.md#community-leader), career mentor requirement [#CM4](../requirements/functional-requirements.md#career-mentor) and admin requirements [#A1, #A2](../requirements/functional-requirements.md#admin).
 
-<img src="../resources/images/search-and-enrichment-service.jpeg"></img>
+<img src="../resources/images/search-subsystem.jpeg"></img>
 _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/6c4a99f5-3b57-435a-81a3-4f626a3167a2)._
 
 ## Element Catalog 
