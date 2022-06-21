@@ -28,7 +28,7 @@ In addition, the roles for the user is also maintained by the user management da
 
 #### Non-Profit Organisation Onboarding
 
-<img src="../images/onboarding_flow_chart.jpeg" height="500"></img>
+<img src="../images/onboarding_flow_chart.jpeg" height="600"></img>
 
 - The platform manager stores all information related to the Non profit, candidates enrolled for various non profit offerings, community leader assigned to a non-profit, etc.
 
@@ -124,7 +124,7 @@ The candidates calendars are also blocked for biweekly 1:1 meetings with the car
 
 #### Career roadmap creation
 
-<img src="../images/needs_matching.jpeg" height="500"></img>
+<img src="../images/needs_matching.jpeg" height="600"></img>
 
 - Based on the needs assessment, a set of offerings are recommended to the candidate. A recommendation system, which can be intially created using simple tag extaction and later using ML for more refined and accurate recommendations, uses the NPO offerings available and the needs of the candidate to recommend a set of offerings.
 There can be an upper limit on the number of offerings returned as part of this recommendation so as to not overwhelm the candidate. 
