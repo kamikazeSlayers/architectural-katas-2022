@@ -53,14 +53,15 @@ Below is a high-level view of the system that fulfills all the requirements (see
 _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/793bda92-8670-4f89-a0e1-4043f0e5135d)._
 
 ### Component Architecture Views
-The main part of the design proposal is the set of architecture views seen below:
-- [User Onboarding and Management](./architectural-views/platform-management-subsystem.md)
-- [Notification and Meeting Scheduler Service](./architectural-views/notification-and-meeting-service-subsystem.md)
-- [Community Forum Management Architecture](./architectural-views/community-forum-management-subsystem.md)
-- [Search and Enrichment Service Architecture](./architectural-views/search-and-enrichment-service-subsystem.md)
+The Spotlight App architecture is built using the following architecture subsystems:
+- [Platform Management Subsystem](./architectural-views/platform-management-subsystem.md)
+- [Notification and Meeting Scheduler Subsystem](./architectural-views/notification-and-meeting-service-subsystem.md)
+- [Community Forum Management Subsystem](./architectural-views/community-forum-management-subsystem.md)
+- [Search and Enrichment Service Subsystem](./architectural-views/search-and-enrichment-service-subsystem.md)
+- [Analytics Subsystem](./architectural-views/analytical-architecture-subsystem.md)
 - [Database Change Data Consumer Microservice](./architectural-views/database-change-data-consumer.md)
 - [Operational Reporting](./architectural-views/operational-reports.md)
-- [Analytical Architecture](./architectural-views/analytical-architecture-subsystem.md)
+
 
 ### Deployment View
 Below is a physical/deployment view for the components seen in the above architectural views:
