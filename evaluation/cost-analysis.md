@@ -149,8 +149,9 @@ Object Store (assuming 10 million requests) = $0.005 * 10,000 = $50
 
 ### Note on cost savings
 - Costs can significantly be reduced (30-70%) by opting to reserve the instances on AWS. It is encouraged to make use of reserved instances wherever possible. 
-- AWS offerings include Free Tier plans for almost all its offerings. That should bring the day-zero costs down while building/bootstrapping the system. These free tiers are not fully considered in the above estimates.
 - EC2 instance size of all micro-services is assumed to be t3.large. For initial bootstrapping, a smaller instance size can be used. Similarly, smaller instance sizes for Elasticache, RDS and other resources can be provisioned initially. AWS allows scaling up all these resources without downtime or with minimal downtime in some cases.
+- Implementation plan should be derived keeping these costs in mind. For example, it might be prudent to use a third-party offering for Notification subsystem (Google Calendar) and Community Forum (Wordpress). At a later stage, these subsystems can be built in-house based on the usage, scale and required features. Start small, use ready-to-use third-party offerings for quick bootstrapping, iterate fast, and evolve.
+- AWS offerings include Free Tier plans for almost all its offerings. That should bring the day-zero costs down while building/bootstrapping the system. These free tiers are not fully considered in the above estimates. 
 
 
 ## References
