@@ -2,7 +2,7 @@
 
 ## Non-functional Requirements and corresponding Architecture Characteristics
 
-Restating the NFR to architecture characteristic mapping here for the purpose of architecture evaluation. 
+#### Restating the NFR to architecture characteristic mapping here for the purpose of architecture evaluation. 
 
 | S. No. | Non functional Requirement | Architecture Characteristic |
 |:---:|---|:---:|
@@ -19,7 +19,7 @@ Restating the NFR to architecture characteristic mapping here for the purpose of
 | N11 | Regular upgrades to the infrastructure is performed to keep the dependencies and the system up to date with bug fixes, vulnerabilities, etc with minimal downtime | Maintainability |
 | N12 | Resources, technologies, and infrastructure required to create the platform must be cost effective since it is used by non-profit organisations | Cost Effectiveness |
 
-Approaches
+#### Approaches
 
 | S. No. | Architectural Elements |
 |:---:|:---:|
@@ -27,13 +27,32 @@ Approaches
 | A2 | [Event Driven Architecture](../adrs/adr02-eda-architecture.md)|
 | A3 | [Search powered by ElasticSearch](../adrs/adr07-elastic-search_for_search.md)|
 | A4 | [NoSQL Database for Storage](../adrs/adr03-sql-vs-nosql.md)|
-| A5 | [Provisioning Content Delivery Network](../architectural-views/platform-management-subsystem.md#content-delivery-network)|
-| A6 | [Community Feed / Ranking Cache](../architectural-views/community-forum-management-subsystem.md#feed--ranking-cache-manager)|
-| A7 | [Caching user and non profit information](../adrs/adr06-caching.md) |
-| A8 | [AWS deployment in multiple availability zones](../architectural-views/physical-view-aws-deployment.md#multiple-az-deployment)|
-| A9 | [API Gateway for Throttling Requests](../adrs/adr08-aws-api-gateway.md#throttling)|
-| A10 | [Load balancing at API Gateway](../adrs/adr08-aws-api-gateway.md#load-balancing) |
-| A11 | [Caching at API Gateway](../adrs/adr08-aws-api-gateway.md#caching)|
-| A12 | [AWS for Deployment](../adrs/adr05-AWS_for_deployment.md)|
-| A13 | [Distributed tracing, monitoring and logging](../architectural-views/observability.md)|
-| A14 | [Low cost alternatives](./cost-analysis.md#note-on-cost-savings)|
+| A5 | [Object store for pdfs, images](../)
+| A6 | [Provisioning Content Delivery Network](../architectural-views/platform-management-subsystem.md#content-delivery-network)|
+| A7 | [Community Feed / Ranking Cache](../architectural-views/community-forum-management-subsystem.md#feed--ranking-cache-manager)|
+| A8 | [Caching user and non profit information](../adrs/adr06-caching.md) |
+| A9 | [AWS deployment in multiple availability zones](../architectural-views/physical-view-aws-deployment.md#multiple-availability-zones)|
+| A10 | [API Gateway for Throttling Requests](../adrs/adr08-aws-api-gateway.md#throttling)|
+| A11 | [Load balancing at API Gateway](../adrs/adr08-aws-api-gateway.md#load-balancing) |
+| A12 | [Caching at API Gateway](../adrs/adr08-aws-api-gateway.md#caching)|
+| A13 | [AWS for Deployment](../adrs/adr05-AWS_for_deployment.md)|
+| A14 | [Role based authorisation](../architectural-views/platform-management-subsystem.md#user-management) |
+| A15 | [Distributed tracing, monitoring and logging](../architectural-views/observability.md)|
+| A16 | [Low cost alternatives](./cost-analysis.md#note-on-cost-savings)|
+
+## Evaluation
+
+| NFR | Architectural Elements<br> Fulfilling NFR | Notes | TradeOff (if any) | Risk (if any) | Recommended implementation <br> approach ( if applicable)
+|:---:|---|---|---|---|:---:|
+| N1 | A1, A3 ||||
+| N2 | A3 ||||
+| N3 | A1, A2, A7, A8, A12||||
+| N4 | A4, A5 ||||
+| N5 | A2, A3 ||||
+| N6 | A3, A6, A11, A12 ||||
+| N7 | A6, A7, A11, A12, ||||
+| N8 | A9, A10, A15 ||||
+| N9 | A14 ||||
+| N10 | A1, A2 ||||
+| N11 | A1, A13 ||||
+| N12 | A2, A16 ||||

@@ -31,8 +31,6 @@ thereby improving the performance and faster response times.
 This is the Amazon managed streaming for Apache Kafka. It helps manage the entire infrastructure associated with running Kafka instance including zookeeper, etc.
 Using these managed services helps reduce the effort, cost and additional overhead of maintaining the services ourselves.
 Links: https://aws.amazon.com/msk/
-
-#### Multiple AZ Deployment
  
 ## Related ADRs 
 - [ADR: AWS for deployment](../adrs/AWS_for_deployment.md)
