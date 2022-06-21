@@ -99,3 +99,4 @@ The architecture is evaluated against the identified requirements, architectural
 
 ## Tools Used
 - [Lucid Chart](https://lucid.app/) - We used Lucid Chart for creating all of our architecture diagrams.
+  [Here](./resources/lucidchart-references.md) is the document that lists all lucid chart links.
