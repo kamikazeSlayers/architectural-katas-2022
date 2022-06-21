@@ -1,9 +1,11 @@
 # Cost Analysis (ballpark only)
 
 ## Context
-One of the challenges in kickstarting a new project is high initial short-term infrastructure costs. This poses a typical "chicken and egg" dilemma to justify the timing and need of investment into new products and features. Until the platform gains traction, it is important to pay attention on the costs and keep them minimal. This document attempts to estimate a rough high-level ballpark short-term costs of the overall architecture. While the costs presented in this document might not be accurate, these numbers can help in producing the final implementation plan (prioritizing features, estimating the return on investment for each architectural subsystem, using third-party offerings instead of building one, preparing short-term vs long-term strategy etc).  
+High initial infrastructure expenditures are one of the obstacles in launching a new project. This poses a typical "chicken and egg" dilemma to justify the timing and need of investment into new products and features. It is important to pay attention on the costs and keep them minimal, especially until the platform gains traction. 
+
+This document attempts to estimate a rough high-level ballpark short-term deployment cost of the overall architecture. While the costs presented in this document might not be accurate, these numbers can help in producing the final implementation plan (prioritizing features, estimating the return on investment for each architectural subsystem, using third-party offerings instead of building one, preparing short-term vs long-term strategy etc).  
  
-Note that as more and more users sign-up and the platform gains traction, "the effective per unit-cost" of the infrastructure is expected to reduce. This is because [Economies of Scale](https://www.investopedia.com/terms/e/economiesofscale.asp) is highly prevalent on such backend systems.
+Note that as more and more users sign-up and the platform gains traction, "the effective per unit cost" of the infrastructure is expected to reduce significantly. This is because [Economies of Scale](https://www.investopedia.com/terms/e/economiesofscale.asp) is highly prevalent on such backend systems.
 
 ## High-level Estimates (ballpark only)
 
