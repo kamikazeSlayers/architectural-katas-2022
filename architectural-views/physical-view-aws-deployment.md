@@ -9,6 +9,7 @@ _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/9d627d1
 - API Gateway
 - Load Balancers
 - AWS MSK fully managed Kafka service
+- Multiple AZ Deployment
 
 #### Multiple availability zones
 AWS recommends that a customer should run their workloads in more than one availability zone (AZ). 
@@ -30,6 +31,8 @@ thereby improving the performance and faster response times.
 This is the Amazon managed streaming for Apache Kafka. It helps manage the entire infrastructure associated with running Kafka instance including zookeeper, etc.
 Using these managed services helps reduce the effort, cost and additional overhead of maintaining the services ourselves.
 Links: https://aws.amazon.com/msk/
+
+#### Multiple AZ Deployment
  
 ## Related ADRs 
 - [ADR: AWS for deployment](../adrs/AWS_for_deployment.md)

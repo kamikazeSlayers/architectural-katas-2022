@@ -19,3 +19,21 @@ Restating the NFR to architecture characteristic mapping here for the purpose of
 | N11 | Regular upgrades to the infrastructure is performed to keep the dependencies and the system up to date with bug fixes, vulnerabilities, etc with minimal downtime | Maintainability |
 | N12 | Resources, technologies, and infrastructure required to create the platform must be cost effective since it is used by non-profit organisations | Cost Effectiveness |
 
+Approaches
+
+| S. No. | Architectural Elements |
+|:---:|:---:|
+| A1 | [Microservices Architecture](../adrs/adr01-microservice-architecture.md)|
+| A2 | [Event Driven Architecture](../adrs/adr02-eda-architecture.md)|
+| A3 | [Search powered by ElasticSearch](../adrs/adr07-elastic-search_for_search.md)|
+| A4 | [NoSQL Database for Storage](../adrs/adr03-sql-vs-nosql.md)|
+| A5 | [Provisioning Content Delivery Network](../architectural-views/platform-management-subsystem.md#content-delivery-network)|
+| A6 | [Community Feed / Ranking Cache](../architectural-views/community-forum-management-subsystem.md#feed--ranking-cache-manager)|
+| A7 | [Caching user and non profit information](../adrs/adr06-caching.md) |
+| A8 | [AWS deployment in multiple availability zones](../architectural-views/physical-view-aws-deployment.md#multiple-az-deployment)|
+| A9 | [API Gateway for Throttling Requests](../adrs/adr08-aws-api-gateway.md#throttling)|
+| A10 | [Load balancing at API Gateway](../adrs/adr08-aws-api-gateway.md#load-balancing) |
+| A11 | [Caching at API Gateway](../adrs/adr08-aws-api-gateway.md#caching)|
+| A12 | [AWS for Deployment](../adrs/adr05-AWS_for_deployment.md)|
+| A13 | [Distributed tracing, monitoring and logging](../architectural-views/observability.md)|
+| A14 | [Low cost alternatives](./cost-analysis.md#note-on-cost-savings)|
