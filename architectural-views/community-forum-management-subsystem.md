@@ -31,9 +31,28 @@ _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/6ac4f17
 - Search Service makes the common entities in a community (candidates, non profits, services, communities, posts etc.) searchable. It intelligently tags these entities for seamless discovery and retrieval.
 - Search Service uses ElasticSearch for maintaining the search index.
 
+## Out-of-the-box (OOTB) Offerings Considerations
+In order to speed up the development process and save on costs in the initial phases, we evaluated some OOTB community platforms that fulfill all of Spotlight app's requirements. In order to keep the user engaged, we can build abstractions on top of these platforms giving us the following advantages:
+- Avoid vendor lock-in: One offering can be replaced with another, given it provides programmatic access (APIs).
+- Flexibile design: Third-party offering can be replaced with our own subsystem (desribed [above](#community-forum-management-subsystem)) based on  usage, scale and other required features.
+
+### PeerBoard
+There are many community platforms out there ([bbPress (Wordpress)](https://wordpress.org/plugins/bbpress/)/[Discourse](https://www.discourse.org/)), but [PeerBoard](https://peerboard.com) stands out because of the following reasons:
+- Complete white label platform: Allows you to fully customize your community to fit your brand image
+- Visibility and access controls: Global and group-level controls for content visibility and access rights.
+- Email Notifications: Allow members to receive periodic updates with forum highlights, recent posts, or other high level forum details, at a glance.
+- Free [Pricing](https://peerboard.com/pricing) Tier: Has a free option and 30-day trial period for the paid plans (starts at $29/month)
+- Programmatic Access: You can use the API functionality to integrate with any platform.
+- Numerous [integrations](https://peerboard.com/integrations) that give the ability to add all kinds of additional features to your community. 
+
+The profession plan fulfills all platform requirements and is priced at only $79/month, very cheap compared to other platforms out there. If the team wants to save on costs and development effort, this could be great starting point.
+
 ## Related ADRs 
 - [Microservices Architecture](../adrs/adr01-microservice-architecture.md)
 - [Event Driven Architecture](../adrs/adr02-eda-architecture.md)
 - [SQL v/s NoSQL](../adrs/adr03-sql-vs-nosql.md)
 - [Caching using Cache Manager](../adrs/adr06-caching.md)
 - [ElasticSearch as the Search Provider](../adrs/adr07-elastic-search_for_search.md)
+
+## References
+- [Comparison of Community Platforms | 2022](https://sellcoursesonline.com/best-online-community-platforms)
