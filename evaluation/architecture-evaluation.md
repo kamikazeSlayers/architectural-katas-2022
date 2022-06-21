@@ -28,7 +28,7 @@
 | A3 | [Search powered by ElasticSearch](../adrs/adr07-elastic-search_for_search.md)|
 | A4 | [NoSQL Database for Storage](../adrs/adr03-sql-vs-nosql.md)|
 | A5 | [Object store for pdfs, images](../)
-| A6 | [Provisioning Content Delivery Network](../architectural-views/platform-management-subsystem.md#content-delivery-network)|
+| A6 | [Content Delivery Network](../architectural-views/platform-management-subsystem.md#content-delivery-network)|
 | A7 | [Community Feed / Ranking Cache](../architectural-views/community-forum-management-subsystem.md#feed--ranking-cache-manager)|
 | A8 | [Caching user and non profit information](../adrs/adr06-caching.md) |
 | A9 | [AWS deployment in multiple availability zones](../architectural-views/physical-view-aws-deployment.md#multiple-availability-zones)|
@@ -44,15 +44,15 @@
 
 | NFR | Architectural Elements<br> Fulfilling NFR | Notes | TradeOff (if any) | Risk (if any) | Recommended implementation <br> approach ( if applicable)
 |:---:|---|---|---|---|:---:|
-| N1 | A1, A3 ||||
-| N2 | A3 ||||
-| N3 | A1, A2, A7, A8, A12||||
-| N4 | A4, A5 ||||
-| N5 | A2, A3 ||||
-| N6 | A3, A6, A11, A12 ||||
-| N7 | A6, A7, A11, A12, ||||
-| N8 | A9, A10, A15 ||||
-| N9 | A14 ||||
-| N10 | A1, A2 ||||
-| N11 | A1, A13 ||||
-| N12 | A2, A16 ||||
+| N1 | A1, A3 | Microservices architecture makes it flexible to add support for any additional services that can enhance usability. <br>Search tool enhances user experience and ease of finding resources/ non profits/ candidate information and so on. |-|-| Most of the usability aspects such as easy navigation, simple and intuitive UI, prompts for various actions, and so on must be taken care of when designing and implementing the front end of the application. |
+| N2 | A3 |-|-|-|-|
+| N3 | A1, A2, A7, A8, A12|-|-|While these architectural styles, caching help in scaling to get high throughputs, sufficient load testing and benchmarking, fixing bottlenecks in the implementation and so on must be done to get the desired scale|Setting up a load test environment to benchmark, test and measure would prove effective in building a scalable system|
+| N4 | A4, A5 |- | Using higher or lower capacity storages for cache, database may increase/decrease [cost accordingly](./cost-analysis.md#cost-analysis). | Appropriate storage instances must be allocated considering the volume of data to be stored else, there is risk of insufficient storage and consequent data loss | - |
+| N5 | A2, A3 |-|-|-|-|
+| N6 | A3, A6, A11, A12 |||||
+| N7 | A6, A7, A11, A12, |||||
+| N8 | A9, A10, A15 |||||
+| N9 | A14 |||||
+| N10 | A1, A2 |||||
+| N11 | A1, A13 |||||
+| N12 | A2, A16 |||||
