@@ -54,5 +54,5 @@
 | N8 | A9, A10, A15 |||||
 | N9 | A14 |||||
 | N10 | A1, A2 |||||
-| N11 | A1, A13 |||||
-| N12 | A2, A16 |||||
+| N11 | A1, A2, A13 | Microservices architecture and event driven architecture enable agility and loose coupling. As a result deployments, upgrades to one service does not bring down the entire service. Deployments of each microservice can take place independently, ensuring continuous integration and continuous delivery. AWS also supports minimal to no downtime in performing updates to the infrastructure and upgrading to different tiers.| - |Unexpected events during a maintenance activites may result in longer down times. So it would be good to keep customers/stakeholders informed about the possibility of such events|Major maintenance activities must be performed during times when there is least activity or/ less traffic|
+| N12 | A16 | Initial implementation can always start with basic tiers, and later can be upgraded to higher tiers based on usage. This would help save costs and reap the benefits of a distributed microservices architecture. | - | - | - |
