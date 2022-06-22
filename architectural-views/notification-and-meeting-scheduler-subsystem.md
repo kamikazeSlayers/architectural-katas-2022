@@ -44,6 +44,9 @@ Meeting scheduler works as follows -
 
 For tracking the scheduled meetings, Meeting Scheduler service uses a SQL database. For scheduling meetings, this service can optionally leverage third-party services like Google Meet or Zoom to facilitate virtual meetings.
 
+## Out-of-the-box (OOTB) Offerings Considerations
+[Google Calendar](https://developers.google.com/calendar/api/guides/create-events) can be leveraged for scheduling events. It can be easily integrated with [Google Meet](https://developers.google.com/calendar/api/guides/create-events#conferencing) for virtual meetings.
+  
 ## Related ADRs
 - [Microservices Architecture](../adrs/adr01-microservice-architecture.md)
 - [Event Driven Architecture](../adrs/adr02-eda-architecture.md)
