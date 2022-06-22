@@ -21,7 +21,7 @@ _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/6ac4f17
 - These events are also consumed by Search Service for faster discovery and retrieval of communities, posts etc. 
 
 #### Post Service
-- Post Service is responsible for create/read/update/delete user posts, upload assets to Object Store. It use a NoSQL key-value database that offers a scalable store for Posts. 
+- Post Service is responsible for create/read/update/delete operations on user posts and upload of assets to Object Store. It use a NoSQL key-value database that offers a scalable store for Posts. 
 
 #### Feed / Ranking Cache Manager
 - Feed / Ranking Cache Manager is responsible for intelligently computing the top-posts (based on upvotes, downvotes, views etc), managing the top ranking of posts in a feed (per community, per region etc.) and offers a way to retrieve most meaningful top posts per user.
@@ -45,7 +45,7 @@ There are many community platforms out there ([bbPress (Wordpress)](https://word
 - Programmatic Access: You can use the API functionality to integrate with any platform.
 - Numerous [integrations](https://peerboard.com/integrations) that give the ability to add all kinds of additional features to your community. 
 
-The profession plan fulfills all platform requirements and is priced at only $79/month, very cheap compared to other platforms out there. If the team wants to save on costs and development effort, this could be great starting point.
+The profession plan fulfills all platform requirements and is priced at only $79/month, very cheap compared to other solutions. If the team wants to save on costs and development effort, this could be great starting point.
 
 ## Related ADRs 
 - [Microservices Architecture](../adrs/adr01-microservice-architecture.md)
