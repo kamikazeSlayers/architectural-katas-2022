@@ -39,7 +39,7 @@ In addition, the roles for the user is also maintained by the user management da
 
 _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b65bf118-1b70-4ded-8e78-bd304450fd9b)._
 
-- The platform manager stores all information related to the Non profit, candidates enrolled for various non profit offerings, community leader assigned to a non-profit, etc.
+- The platform management service stores all information related to the Non profit, candidates enrolled for various non profit offerings, community leader assigned to a non-profit, etc.
 
 - Only a user with role NPO can create a non-profit organisation profile. 
 
@@ -77,7 +77,7 @@ stored in the NPO's offering data in the document db.
 
 - Once an offering has been created, a message containing the NPO id and the offering id, is published to a topic in Kafka.
 
-- The platform manager reads this message from the Kafka topic, adds a mapping in the database, associating the offering id to the non-profit. 
+- The platform management service reads this message from the Kafka topic, adds a mapping in the database, associating the offering id to the non-profit. 
 
 - If the "Registration status" is PENDING, it is marked as COMPLETE and a community leader is assigned to the non-profit.
 
