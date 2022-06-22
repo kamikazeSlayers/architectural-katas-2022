@@ -12,9 +12,9 @@ See platform requirements [#1, #2, #8](../requirements/functional-requirements.m
 ## Element Catalog 
 
 #### User management
-- All users of the platform ( non-profit , candidates, admin, community leader, career mentor ) need to create an account.
+- All users of the platform (non-profit , candidates, admin, community leader, career mentor) need to create an account.
 Creation of an account follows the standard OAuth process. 
-The platform provides support for Open ID based authentication that allows users to create am account using their Google, Facebook or Apple account.
+The platform provides support for Open ID based authentication that allows users to create an account using their Google, Facebook or Apple account.
 
 - Users can opt to register as a non-profit, candidate, community leader, career mentor or admin. 
 Based on the type of account created, a user is assigned a ROLE, which is added as part of the authorization token used to access the platform.
