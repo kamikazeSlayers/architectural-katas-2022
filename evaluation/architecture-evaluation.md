@@ -1,8 +1,11 @@
 # Architecture Evaluation
 
+## Context
+This section evaluates the [proposed Spotlight architecture](../README.md#architecture) against the requirements and architectural characteristics that were identified keeping practical aspects (deployment costs, provisioning, implementation overheads etc) into consideration.  
+
 ## Non-functional Requirements and corresponding Architecture Characteristics
 
-#### Restating the NFR to architecture characteristic mapping here for the purpose of architecture evaluation. 
+Restating the NFRs to architecture characteristic mapping ([from here](../requirements/architecture-characteristics.md)) for the purpose of architecture evaluation. 
 
 | S. No. | Non functional Requirement | Architecture Characteristic |
 |:---:|---|:---:|
