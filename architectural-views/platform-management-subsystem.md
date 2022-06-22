@@ -171,16 +171,18 @@ If there are deadlines associated with an offering that the candidate has enroll
 #### Feedback on completion 
 On completion of the career roadmap, the candidate is sent a feedback form which is used for analytical purposes.
 
-## Specific Architectural Elements
+## Architectural Elements
 
 #### Content Delivery Network
+A [content delivery network (CDN)](https://www.cloudflare.com/en-in/learning/cdn/what-is-a-cdn/#:~:text=A%20content%20delivery%20network%20(CDN,stylesheets%2C%20images%2C%20and%20videos) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content. A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos.
+
+CDN plays an important role in ensuring ease-of-use of the Spotlight Architecture as it allows faster retrieval of data and assets. Frequently accessed data can be cached in a geographically distributed CDN so that it can be returned directly from the CDN server closest to the user. In this case, the request does not even reach to the Spotlight platform.
 
 #### Caching using Cache Manager
+Refer to ADR [Caching](https://github.com/kamikazeSlayers/architectural-katas-2022/blob/d1d3f3fc79011c0659d46c98719eef484ba05786/adrs/adr06-caching.md) for more details.
 
 #### Object store
-
-1. User management information
-2. Non profit offerings
+Object store provides a highly scalable, durable and performant storage solution. In our use-case, object store provides a hybrid cloud storage, augmenting the existing local storage environment with the durability and scale. See [Cloud Object Storage](https://aws.amazon.com/what-is-cloud-object-storage/) for more details. Unstructured binary / blob data is stored in Object Store (AWS S3).
 
 ## Related ADRs 
 - [Microservices Architecture](../adrs/adr01-microservice-architecture.md)
