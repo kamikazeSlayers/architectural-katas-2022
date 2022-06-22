@@ -169,3 +169,4 @@ Observability stack - Prometheus, Grafana, Metric Store (Cortex / AWS Cloudwatch
 - [AWS EC2 Reserved Instances](https://aws.amazon.com/ec2/pricing/reserved-instances/)
 - [AWS Reserved Instances overview](https://aws.amazon.com/aws-cost-management/aws-cost-optimization/reserved-instances/)
 - [AWS Elasticache Reserved Instances](https://aws.amazon.com/elasticache/reserved-cache-nodes/)
+- [Amazon Managed Service for Prometheus pricing](https://aws.amazon.com/prometheus/pricing/)
