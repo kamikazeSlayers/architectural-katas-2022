@@ -23,7 +23,7 @@ The schema for an NPO offering may evolve over time depending on the type of ser
 
 In case of maintaining information related to the Non profits, candidates, needs assessment, career road map, the data that is required to be stored ( table definition ) is not expected to change very often.
 
-In all cases, we would be storing large objects in an object store such as S3 Bucket and only references to such objects would be stored in the database.
+In all cases, we would be storing large objects in an object store such as [AWS S3](https://aws.amazon.com/s3/), and only references to such objects would be stored in the database.
 
 Keeping this in mind, we considered the following alternatives
 
