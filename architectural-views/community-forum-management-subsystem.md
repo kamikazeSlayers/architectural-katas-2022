@@ -32,7 +32,7 @@ _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/6ac4f17
 - Search Service uses ElasticSearch for maintaining the search index.
 
 ## Out-of-the-box (OOTB) Offerings Considerations
-In order to speed up the development process and save on costs in the initial phases, we evaluated some OOTB community platforms that fulfill all of Spotlight app's requirements. In order to keep the user engaged, we can build abstractions on top of these platforms giving us the following advantages:
+In order to speed up the development process and save on costs in the initial phases, we evaluated some OOTB community platforms that fulfill Spotlight's community forum requirements. In order to keep the user engaged, we can build abstractions on top of these platforms giving us the following advantages:
 - Avoid vendor lock-in: One offering can be replaced with another, given it provides programmatic access (APIs).
 - Flexibile design: Third-party offering can be replaced with our own subsystem (desribed [above](#community-forum-management-subsystem)) based on  usage, scale and other required features.
 
