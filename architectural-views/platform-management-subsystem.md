@@ -174,7 +174,7 @@ On completion of the career roadmap, the candidate is sent a feedback form which
 ## Architectural Elements
 
 #### Content Delivery Network
-A [content delivery network (CDN)](https://www.cloudflare.com/en-in/learning/cdn/what-is-a-cdn/#:~:text=A%20content%20delivery%20network%20(CDN,stylesheets%2C%20images%2C%20and%20videos) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content. A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos.
+A [content delivery network (CDN)](https://www.cloudflare.com/en-in/learning/cdn/what-is-a-cdn/) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content. A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos.
 
 CDN plays an important role in ensuring ease-of-use of the Spotlight Architecture as it allows faster retrieval of data and assets. Frequently accessed data can be cached in a geographically distributed CDN so that it can be returned directly from the CDN server closest to the user. In this case, the request does not even reach to the Spotlight platform.
 
