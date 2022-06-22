@@ -33,7 +33,7 @@ In addition, the roles for the user is also maintained by the user management da
 
 ### Networking Hub Functionality & Process
 
-#### Non-Profit Organisation Onboarding
+#### Non-Profit Organisation (NPO) Onboarding
 
 <img src="../resources/images/onboarding_flow_chart.jpeg" height="600"></img>
 
@@ -66,14 +66,11 @@ _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b65bf11
   - Daycare/Child Care Services
   - Mentorship/Career Advocate Services
 
-- An offering can contain links to the non-profit website where the candidate can register for programs offered by the NPO, 
-or links to training material on a third party website, links to resources, downloadable texts, pdfs, that the candidate needs to complete, 
-assessments, and so on. 
+- An offering can contain links to the non-profit website where the candidate can register for programs offered by the NPO, or links to training material on a third party website, links to resources, downloadable texts, pdfs, that the candidate needs to complete, assessments, and so on. 
 
 - Since the schema can vary from one offering to another, we use a document db to store this information. 
 
-- All resources ( downloadables such as text files and images ) are uploaded to an object store such as S3, and the reference to the same is 
-stored in the NPO's offering data in the document db. 
+- All resources (downloadables such as text files and images) are uploaded to an object store such as [AWS S3](https://aws.amazon.com/s3/), and the reference to the same is  stored in the NPO's offering data in the document db. 
 
 - Once an offering has been created, a message containing the NPO id and the offering id, is published to a topic in Kafka.
 
@@ -87,10 +84,8 @@ stored in the NPO's offering data in the document db.
 
 _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b65bf118-1b70-4ded-8e78-bd304450fd9b)._
 
-- A community is an independent entity that a community forum and a community leader. 
-
-- Based on the services and the area of expertise of the non profit which is assigned to a community. 
-Initially, this information is manually extracted from the NPO at the time of onboarding. 
+- A community is an independent entity that comprises of a community forum and a community leader based on the services and the area of expertise of the non profit which is assigned to a community. 
+- Initially, this information is manually extracted from the NPO at the time of onboarding. 
 It can however, later, be automated by using auto-tagging service powered by machine learning models.
 
 - The platform admin assigns community leaders to various communities based on their skills and areas of expertise.
@@ -116,17 +111,17 @@ The NPO users calendars are also blocked for monthly community meetings that are
 
 ### Career Case Management Functionality & Process 
 
-#### Candidate Registration and Onboarding ( Needs Assessment )
+#### Candidate Registration and Onboarding (Needs Assessment)
 - The user registers on the platform as a candidate. The role CANDIDATE is associated with the user, which is sent as part of the authorisation token that provides access to the candidates to various resources on the platform.
 - The candidate creates a career profile. All achievements, badges earned on completion of courses/offerings, community engagement, career road map, are visible on the career profile of the candidate.
-- the candidate is has to complete the needs assessmenet at the time of onboarding. The platform management service receives and stores the needs assessment in the database. 
+- The candidate has to complete the needs assessmenet at the time of onboarding. The platform management service receives and stores the needs assessment in the database. 
 - On completing the needs assessment, the onboarding of the candidate is complete.
 
-#### Career mentor assignment
+#### Career Mentor Assignment
 - Once the candidate profile is complete, a career mentor is assigned to the candidate from the available career mentors on the platform.
-This assignment is in round-robin basis so as to equally distribute the number of candidates among the available career mentors.
-The platform must ensure that no mentor handles more than a certain number of candidates. 
-Sufficient number of career mentors must be ensured by the platform admin.
+  - This assignment is in round-robin basis so as to equally distribute the number of candidates among the available career mentors.
+  - The platform must ensure that no mentor handles more than a certain number of candidates. 
+  - Sufficient number of career mentors must be ensured by the platform admin.
 
 - Once the mentor is assigned, a welcome email introducing the career mentor is sent via the notification manager as described in [Notification and Meeting Scheduler Subsystem](./notification-and-meeting-scheduler-subsystem.md).
 
@@ -150,7 +145,7 @@ A notification about the same is sent to the career mentor who can then APPROVE 
 
 - Only the APPROVED offerings are part of the career road map. 
 
-#### Career roadmap tracking 
+#### Career Roadmap Tracking 
 - Each offering in a roadmap is tracked individually by the candidate and the career mentor. Candidates can mark assignments, modules, assessments as done as and when they complete the same either on the platform or on the Non-profit site.
 Career mentors can also mark the status of the various modules or progress in an offering based on conversations they have with the candidate, or based on completion status email they might receive from the non profit organisation.
 All offering are either in the following states: NOT STARTED, IN PROGRESS, WITHDRAWN, COMPLETED.
@@ -164,7 +159,7 @@ All offering are either in the following states: NOT STARTED, IN PROGRESS, WITHD
 - The platform sends push notification to the user on the app and browser and to the career mentor with the list of offerings that are in progress or not started stage, nudging the candidates to take action. 
 If there are deadlines associated with an offering that the candidate has enrolled for, regular notifications are sent to the user prompting them to take action on the same. 
 
-- When a candidate road map is completes, a feedback form is sent to the candidate seeking information on how the program helped, if they got a job offer of their choice, and so on. 
+- When a candidate road map is completed, a feedback form is sent to the candidate seeking information on how the program helped, if they got a job offer of their choice, and so on. 
 
 - These reports are then used by the [Analytics Subsytem](./analytical-architecture-subsystem.md) to predict career paths for candidates based on the offerings.
 
