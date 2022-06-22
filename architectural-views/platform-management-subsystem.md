@@ -41,7 +41,7 @@ _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b65bf11
 
 - The platform management service stores all information related to the Non profit, candidates enrolled for various non profit offerings, community leader assigned to a non-profit, etc.
 
-- Only a user with role NPO can create a non-profit organisation profile. 
+- Only a user with role `NPO` can create a non-profit organisation profile. 
 
 - The user who creates the non-profit profile can associate other users who belong to the same non-profit, so only such users will be allowed to modify the details of the non profit organisation.
 
@@ -51,7 +51,7 @@ _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b65bf11
 
 - New offerings can be created by going to the profile page. 
 
-- Only those users who have been added by the creator of the NPO to the non-profit page and with the role of NPO can create new offerings.
+- Only those users who have been added by the creator of the NPO to the non-profit page and with the role of `NPO` can create new offerings.
 
 #### Non-Profit offering creation
 - A non profit offering is intended to help candidates belonging to the under-represented communities in achieving fulfilling careers.
@@ -112,7 +112,7 @@ The NPO users calendars are also blocked for monthly community meetings that are
 ### Career Case Management Functionality & Process 
 
 #### Candidate Registration and Onboarding (Needs Assessment)
-- The user registers on the platform as a candidate. The role CANDIDATE is associated with the user, which is sent as part of the authorisation token that provides access to the candidates to various resources on the platform.
+- The user registers on the platform as a candidate. The role `CANDIDATE` is associated with the user, which is sent as part of the authorisation token that provides access to the candidates to various resources on the platform.
 - The candidate creates a career profile. All achievements, badges earned on completion of courses/offerings, community engagement, career road map, are visible on the career profile of the candidate.
 - The candidate has to complete the needs assessmenet at the time of onboarding. The platform management service receives and stores the needs assessment in the database. 
 - On completing the needs assessment, the onboarding of the candidate is complete.
@@ -140,23 +140,23 @@ There can be an upper limit on the number of offerings returned as part of this 
 - In case none of the offerings recommended by the platform are to the candidates preferences or liking, they can further browse the various offerings, based on NPO names, areas of expertise, etc using the search engine as described in [Search Subsystem](./search-subsystem.md).
 The candidate receives a paginated view of the offerings for ease of browsing with powerful search capabilities.
 
-- The candidate then selects the offerings that he wants to register for. The offerings are added to the career roadmap of the candidate with PENDING_APPROVAL status.
-A notification about the same is sent to the career mentor who can then APPROVE or DECLINE the offerings selected by the candidate, suggest additional offerings, etc.
+- The candidate then selects the offerings that he wants to register for. The offerings are added to the career roadmap of the candidate with `PENDING_APPROVAL` status.
+A notification about the same is sent to the career mentor who can then `APPROVE` or `DECLINE` the offerings selected by the candidate, suggest additional offerings, etc.
 
-- Only the APPROVED offerings are part of the career road map. 
+- Only the `APPROVED` offerings are part of the career road map. 
 
 #### Career Roadmap Tracking 
 - Each offering in a roadmap is tracked individually by the candidate and the career mentor. Candidates can mark assignments, modules, assessments as done as and when they complete the same either on the platform or on the Non-profit site.
 Career mentors can also mark the status of the various modules or progress in an offering based on conversations they have with the candidate, or based on completion status email they might receive from the non profit organisation.
-All offering are either in the following states: NOT STARTED, IN PROGRESS, WITHDRAWN, COMPLETED.
+All offering are either in the following states: `NOT STARTED`, `IN PROGRESS`, `WITHDRAWN`, `COMPLETED`.
 
-- The candidate roadmap is also in the states: NOT STARTED, IN PROGRESS, COMPLETED, based on the progress of the offerings.
+- The candidate roadmap is also in the states: `NOT STARTED`, `IN PROGRESS`, `COMPLETED`, based on the progress of the offerings.
 
 - The progress bar for each offering and the overall career road map is visible to the candidates and mentors on the platform in the form of percentage(%) of completion.
 
-- The candidates may choose to withdraw from certain offerings during the course. In such cases, the offering is no longer tracked as part of the roadmap progress, but the status is marked as WITHDRAWN.
+- The candidates may choose to withdraw from certain offerings during the course. In such cases, the offering is no longer tracked as part of the roadmap progress, but the status is marked as `WITHDRAWN`.
 
-- The platform sends push notification to the user on the app and browser and to the career mentor with the list of offerings that are in progress or not started stage, nudging the candidates to take action. 
+- The platform sends push notification to the user on the app and browser and to the career mentor with the list of offerings that are `IN PROGRESS` or `NOT STARTED` stage, nudging the candidates to take action. 
 If there are deadlines associated with an offering that the candidate has enrolled for, regular notifications are sent to the user prompting them to take action on the same. 
 
 - When a candidate road map is completed, a feedback form is sent to the candidate seeking information on how the program helped, if they got a job offer of their choice, and so on. 
