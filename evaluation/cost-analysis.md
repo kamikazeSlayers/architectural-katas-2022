@@ -120,6 +120,8 @@ Cache (cache.m5.large) * 2 = $80*2 per month
 Message Bus (assuming 10 million messages) = $0.40 * 10 = $4
 <p>
 Object Store (assuming 10 million requests) = $0.005 * 10,000 = $50
+<p>
+Observability stack - Prometheus, Grafana, Metric Store (Cortex / AWS Cloudwatch) = $100
    </td>
    <td>$550
    </td>
@@ -129,7 +131,7 @@ Object Store (assuming 10 million requests) = $0.005 * 10,000 = $50
    </td>
    <td>
    </td>
-   <td><b>$2250</b>
+   <td><b>$2350</b>
    </td>
   </tr>
   <tr>
@@ -137,7 +139,7 @@ Object Store (assuming 10 million requests) = $0.005 * 10,000 = $50
    </td>
    <td>
    </td>
-   <td><b>-$675 (assuming 30%)</b>
+   <td><b>-$705 (assuming 30%)</b>
    </td>
   </tr>
   <tr>
@@ -145,7 +147,7 @@ Object Store (assuming 10 million requests) = $0.005 * 10,000 = $50
    </td>
    <td>
    </td>
-   <td><b>$1575</b>
+   <td><b>$1645</b>
    </td>
   </tr>
 </table>
