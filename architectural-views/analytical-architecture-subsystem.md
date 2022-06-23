@@ -60,8 +60,8 @@ Presentation Tier includes various tools for visualising the data in the data wa
 using powerful visualisation software that provide easy to use and intuitive tools to create simple to very detailed geospactial visualisations of the data.
 
 
-For instance, for visualisation one can use [Apache Superset].(https://superset.apache.org/)
-Superset is highly scalable and easily integrates with warehouses like Apache Druid, Amazon Redshift and also with MySQL to help derive detailed analytical insights.
+For instance, for visualisation one can use [Apache Superset](https://superset.apache.org/).
+Apache Superset is highly scalable and easily integrates with warehouses like Apache Druid, Amazon Redshift and also with MySQL to help derive detailed analytical insights.
 
 ## Outcome
 All these tools help in creating great reports, and retrieve valuable information from data, that can help make business decisions to increase adoption 
