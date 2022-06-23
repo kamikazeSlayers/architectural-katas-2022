@@ -101,9 +101,12 @@ Feed / Ranking cache manager EC2 (t3.large) * 2 = $0.08*30*24 * 2 = $120 per mon
   <tr>
    <td>Analytics subsystem
    </td>
-   <td>Assuming AWS Redshift basic tier as initial data is very low 
+   <td>Stream/batch processing services EC2 (t3.large) * 4 = $0.08*30*24 * 4 = $240 per month 
+   <p>
+   
+   Assuming AWS Redshift basic tier as initial data is very low = $50
    </td>
-   <td>$50
+   <td>$290
    </td>
   </tr>
   <tr>
@@ -131,7 +134,7 @@ Observability stack - Prometheus, Grafana, Metric Store (Cortex / AWS Cloudwatch
    </td>
    <td>
    </td>
-   <td><b>$2350</b>
+   <td><b>$2590</b>
    </td>
   </tr>
   <tr>
@@ -139,7 +142,7 @@ Observability stack - Prometheus, Grafana, Metric Store (Cortex / AWS Cloudwatch
    </td>
    <td>
    </td>
-   <td><b>-$705 (assuming 30%)</b>
+   <td><b>-$777 (assuming 30%)</b>
    </td>
   </tr>
   <tr>
@@ -147,7 +150,7 @@ Observability stack - Prometheus, Grafana, Metric Store (Cortex / AWS Cloudwatch
    </td>
    <td>
    </td>
-   <td><b>$1645</b>
+   <td><b>$1813</b>
    </td>
   </tr>
 </table>
