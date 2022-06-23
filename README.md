@@ -92,6 +92,7 @@ Below are the key architectural decision records:
 - [AWS for deployments](adrs/adr05-AWS_for_deployment.md)
 - [Caching using Cache Manager](adrs/adr06-caching.md)
 - [ElasticSearch as the Search Provider](adrs/adr07-elastic-search_for_search.md)
+- [AWS API Gateway](adrs/adr08-aws-api-gateway.md)
 
 ## Architecture Evaluation
 The architecture is evaluated against the identified requirements, architectural characteristics and costs.

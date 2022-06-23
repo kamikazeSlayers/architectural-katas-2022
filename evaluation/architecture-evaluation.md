@@ -32,9 +32,9 @@
 | A7 | [Community Feed / Ranking Cache](../architectural-views/community-forum-management-subsystem.md#feed--ranking-cache-manager)|
 | A8 | [Caching user and non profit information](../adrs/adr06-caching.md) |
 | A9 | [AWS deployment in multiple availability zones](../architectural-views/physical-view-aws-deployment.md#multiple-availability-zones)|
-| A10 | [API Gateway for Throttling Requests](../architectural-views/aws-api-gateway.md#throttling)|
-| A11 | [Load balancing at API Gateway](../architectural-views/aws-api-gateway.md#load-balancing) |
-| A12 | [Caching at API Gateway](../architectural-views/aws-api-gateway.md#caching)|
+| A10 | [API Gateway for Throttling Requests](Documents/Adobe_Work/CloudArch/Kata2022/architectural-katas-2022/adrs/adr08-aws-api-gateway.md#throttling)|
+| A11 | [Load balancing at API Gateway](Documents/Adobe_Work/CloudArch/Kata2022/architectural-katas-2022/adrs/adr08-aws-api-gateway.md#load-balancing) |
+| A12 | [Caching at API Gateway](Documents/Adobe_Work/CloudArch/Kata2022/architectural-katas-2022/adrs/adr08-aws-api-gateway.md#caching)|
 | A13 | [AWS for Deployment](../adrs/adr05-AWS_for_deployment.md)|
 | A14 | [Role based authorisation](../architectural-views/platform-management-subsystem.md#user-management) |
 | A15 | [Distributed tracing, monitoring and logging](../architectural-views/observability.md)|
