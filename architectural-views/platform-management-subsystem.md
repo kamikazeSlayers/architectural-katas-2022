@@ -4,8 +4,9 @@ This subsystem is responsible for managing the following domains:
 - Onboarding of Non-Profit Organizations and Candidates
 - Candidate Career Tracking
 
-![Platform Management Subsystem Architecture](../resources/images/platform_management_subsystem_architecture.jpeg)
-_Created using Lucidchart. Refer [here](https://lucid.app/documents/view/cc0f6e76-a2f8-4b24-ae71-d491d22dbe3f)._
+| ![Platform Management Subsystem Architecture](../resources/images/platform_management_subsystem_architecture.jpeg) |
+| --- |
+| _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/cc0f6e76-a2f8-4b24-ae71-d491d22dbe3f)._ |
 
 See platform requirements [#1, #2, #8](../requirements/functional-requirements.md#functional-requirements), non-profit requirement [#NP1](../requirements/functional-requirements.md#user-stories), candidate requirements [#C1, #C2, #C3, C6](../requirements/functional-requirements.md#candidate), community leader requirement [#CL1, CL#2](../requirements/functional-requirements.md#community-leader), career mentor requirements [#CM1, #CM2](../requirements/functional-requirements.md#career-mentor) and admin requirements [#A2, #A3](../requirements/functional-requirements.md#admin).
 
@@ -35,9 +36,9 @@ In addition, the roles for the user is also maintained by the user management da
 
 #### Non-Profit Organisation (NPO) Onboarding
 
-<img src="../resources/images/onboarding_flow_chart.jpeg" height="600"></img>
-
-_Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b65bf118-1b70-4ded-8e78-bd304450fd9b)._
+| <img src="../resources/images/onboarding_flow_chart.jpeg" height="600"></img> |
+|---|
+|  _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b65bf118-1b70-4ded-8e78-bd304450fd9b)._ |
 
 - The platform management service stores all information related to the Non profit, candidates enrolled for various non profit offerings, community leader assigned to a non-profit, etc.
 
@@ -80,9 +81,9 @@ _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b65bf11
 
 #### Community and Community Leader Assignment
 
-<img src="../resources/images/community_leader_assignment_platform_management_service.jpeg" height="500"></img>
-
-_Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b65bf118-1b70-4ded-8e78-bd304450fd9b)._
+| <img src="../resources/images/community_leader_assignment_platform_management_service.jpeg" height="500"></img> |
+|---|
+|  _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b65bf118-1b70-4ded-8e78-bd304450fd9b)._ |
 
 - A community is an independent entity that comprises of a community forum and a community leader based on the services and the area of expertise of the non profit which is assigned to a community. 
 - Initially, this information is manually extracted from the NPO at the time of onboarding. 
@@ -133,6 +134,7 @@ The candidates calendars are also blocked for biweekly 1:1 meetings with the car
 | Current View | Future View |
 |---|---|
 | <img src="../resources/images/needs_matching.jpeg" width="500"></img> | <img src="../resources/images/needs_matching_future.jpeg" width="500"></img> |
+| _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/cc0f6e76-a2f8-4b24-ae71-d491d22dbe3f)._ | _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/cc0f6e76-a2f8-4b24-ae71-d491d22dbe3f)._ |
 
 - Based on the needs assessment, a set of offerings are recommended to the candidate. A recommendation system, which can be intially created using simple tag extaction and later using ML for more refined and accurate recommendations, uses the NPO offerings available and the needs of the candidate to recommend a set of offerings.
 There can be an upper limit on the number of offerings returned as part of this recommendation so as to not overwhelm the candidate. 

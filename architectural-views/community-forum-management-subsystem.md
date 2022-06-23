@@ -3,8 +3,9 @@ Community Forums are the heart of the Spotlight ecosystem that bring together al
 
 See platform requirement [#1](../requirements/functional-requirements.md#functional-requirements) and non-profit requirement [#NP4](../requirements/functional-requirements.md#user-stories), candidate requirements [#C4, #C5](../requirements/functional-requirements.md#candidate), community leader requirement [#CL5](../requirements/functional-requirements.md#community-leader), career mentor requirement [#CM5](../requirements/functional-requirements.md#career-mentor) and admin requirements [#A1, #A2](../requirements/functional-requirements.md#admin).
 
-<img src="../resources/images/community-forum-management.png" height="600"></img>
-_Created using Lucidchart. Refer [here](https://lucid.app/documents/view/6ac4f17a-30bf-464b-91bb-589963999fcf)._
+| <img src="../resources/images/community-forum-management.png" height="600"></img> |
+| --- |
+| _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/6ac4f17a-30bf-464b-91bb-589963999fcf)._ |
 
 ## Element Catalog 
 

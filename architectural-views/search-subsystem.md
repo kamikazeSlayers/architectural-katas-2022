@@ -14,8 +14,9 @@ Search subsystem is responsible for faster discovery and retrieval of most entit
 
 See platform requirement [#1](../requirements/functional-requirements.md#functional-requirements) and non-profit requirement [#NP3](../requirements/functional-requirements.md#user-stories), candidate requirements [#C3, #C7](../requirements/functional-requirements.md#candidate), community leader requirement [#CL3](../requirements/functional-requirements.md#community-leader), career mentor requirement [#CM4](../requirements/functional-requirements.md#career-mentor) and admin requirements [#A1, #A2](../requirements/functional-requirements.md#admin).
 
-<img src="../resources/images/search-subsystem.jpeg"></img>
-_Created using Lucidchart. Refer [here](https://lucid.app/documents/view/6c4a99f5-3b57-435a-81a3-4f626a3167a2)._
+| <img src="../resources/images/search-subsystem.jpeg"></img> |
+| --- |
+| _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/6c4a99f5-3b57-435a-81a3-4f626a3167a2)._ |
 
 ## Element Catalog 
 

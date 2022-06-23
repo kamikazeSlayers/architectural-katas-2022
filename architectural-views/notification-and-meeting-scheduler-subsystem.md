@@ -6,8 +6,9 @@ This subsystem comprises of the following major components:
 
 See platform requirement [#1](../requirements/functional-requirements.md#functional-requirements), community leader requirement [#CL2](../requirements/functional-requirements.md#community-leader) and career mentor requirement [#CM5](../requirements/functional-requirements.md#career-mentor).
 
-![Notification and Meeting Scheduler Architecture](../resources/images/notification-and-meeting-scheduler.jpeg)
-_Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b52fc8b9-1ada-4c67-9c6f-0a882811384d)._
+| ![Notification and Meeting Scheduler Architecture](../resources/images/notification-and-meeting-scheduler.jpeg) |
+| --- |
+| _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b52fc8b9-1ada-4c67-9c6f-0a882811384d)._ |
 
 ## Element Catalog 
 
