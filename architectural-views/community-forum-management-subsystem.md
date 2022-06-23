@@ -12,7 +12,7 @@ _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/6ac4f17
 
 - Community Forum Management Service (CFMS) manages communities, community-memberships, forums, posts, post-votes, and user-rewards. It uses a SQL database to manage these entities and their relationships.
 
-- CFMS and related services use event-driven architecture to support high scale and resiliency. It enables asynchronous processing of high volume workflows thereby uncoupling the services to process high volume non-urgent workflows asynchronously.
+- CFMS and related services use event-driven architecture to support high scale and resiliency. It enables asynchronous processing of workflows and supports keeps the services uncoupled for flexibility and ease of development.
 
 - CFMS publishes common interaction events (post CRUD, upvotes, user memberships to community etc.) into the Message Queue. 
 
