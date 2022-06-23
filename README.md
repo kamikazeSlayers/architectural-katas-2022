@@ -109,4 +109,8 @@ The architecture is evaluated against the identified requirements, architectural
 - [Requirements](./requirements/) - contains the requirements and architecture characteristics considered.
 
 ## Tools Used
-- [Lucid Chart](https://lucid.app/) - We used Lucid Chart for creating all of our architecture diagrams. <br/>[Here](./resources/lucidchart-references.md) is the document that lists all lucid chart links.
+We used the following tools through the entire architecture journey.
+- [Lucid Chart](https://lucid.app/) - for creating all of our architecture diagrams. <br/>[Here](./resources/lucidchart-references.md) is the document that lists all lucid chart links.
+- [Microsoft Powerpoint](https://www.microsoft.com/en-in/microsoft-365/powerpoint) - for creating presentation slides.
+- [Adobe Premiere Rush](https://www.adobe.com/in/products/premiere-rush.html) - for editing the submission video.
+- [Microsoft Teams](https://www.microsoft.com/en-in/microsoft-teams/log-in) - for collaborating among the team members.
