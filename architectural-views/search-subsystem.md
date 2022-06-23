@@ -10,12 +10,18 @@ Search subsystem is responsible for faster discovery and retrieval of most entit
 - Location
 - Random text for seeking any help (community forums)
 
+*In order to fulfill the above requirements, the platform needs to track changes to all possible entities in the system. This page does not talk about that. Please refer to [Database Change Data Consumer View](database-change-data-consumer.md) to understand how that is being faciliated.*
+
 See platform requirement [#1](../requirements/functional-requirements.md#functional-requirements) and non-profit requirement [#NP3](../requirements/functional-requirements.md#user-stories), candidate requirements [#C3, #C7](../requirements/functional-requirements.md#candidate), community leader requirement [#CL3](../requirements/functional-requirements.md#community-leader), career mentor requirement [#CM4](../requirements/functional-requirements.md#career-mentor) and admin requirements [#A1, #A2](../requirements/functional-requirements.md#admin).
 
-<img src="../resources/images/search-subsystem.jpeg"></img>
-_Created using Lucidchart. Refer [here](https://lucid.app/documents/view/6c4a99f5-3b57-435a-81a3-4f626a3167a2)._
+| <img src="../resources/images/search-subsystem.jpeg"></img> |
+| --- |
+| _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/6c4a99f5-3b57-435a-81a3-4f626a3167a2)._ |
 
 ## Element Catalog 
+
+#### Change Data Capture (CDC) DB Client
+- Please refer to [Database Change Data Consumer View](database-change-data-consumer.md) for more details.
 
 #### Enrichment Service
 - Responsible for enriching all the low level data to fully qualified objects (with appropriate tags) that the search service can consume.

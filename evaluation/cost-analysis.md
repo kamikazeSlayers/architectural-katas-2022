@@ -101,9 +101,12 @@ Feed / Ranking cache manager EC2 (t3.large) * 2 = $0.08*30*24 * 2 = $120 per mon
   <tr>
    <td>Analytics subsystem
    </td>
-   <td>Assuming AWS Redshift basic tier as initial data is very low 
+   <td>Stream/batch processing services EC2 (t3.large) * 4 = $0.08*30*24 * 4 = $240 per month 
+   <p>
+   
+   Assuming AWS Redshift basic tier as initial data is very low = $50
    </td>
-   <td>$50
+   <td>$290
    </td>
   </tr>
   <tr>
@@ -120,6 +123,8 @@ Cache (cache.m5.large) * 2 = $80*2 per month
 Message Bus (assuming 10 million messages) = $0.40 * 10 = $4
 <p>
 Object Store (assuming 10 million requests) = $0.005 * 10,000 = $50
+<p>
+Observability stack - Prometheus, Grafana, Metric Store (Cortex / AWS Cloudwatch) = $100
    </td>
    <td>$550
    </td>
@@ -129,7 +134,7 @@ Object Store (assuming 10 million requests) = $0.005 * 10,000 = $50
    </td>
    <td>
    </td>
-   <td><b>$2250</b>
+   <td><b>$2590</b>
    </td>
   </tr>
   <tr>
@@ -137,7 +142,7 @@ Object Store (assuming 10 million requests) = $0.005 * 10,000 = $50
    </td>
    <td>
    </td>
-   <td><b>-$675 (assuming 30%)</b>
+   <td><b>-$777 (assuming 30%)</b>
    </td>
   </tr>
   <tr>
@@ -145,7 +150,7 @@ Object Store (assuming 10 million requests) = $0.005 * 10,000 = $50
    </td>
    <td>
    </td>
-   <td><b>$1575</b>
+   <td><b>$1813</b>
    </td>
   </tr>
 </table>
@@ -167,3 +172,4 @@ Object Store (assuming 10 million requests) = $0.005 * 10,000 = $50
 - [AWS EC2 Reserved Instances](https://aws.amazon.com/ec2/pricing/reserved-instances/)
 - [AWS Reserved Instances overview](https://aws.amazon.com/aws-cost-management/aws-cost-optimization/reserved-instances/)
 - [AWS Elasticache Reserved Instances](https://aws.amazon.com/elasticache/reserved-cache-nodes/)
+- [Amazon Managed Service for Prometheus pricing](https://aws.amazon.com/prometheus/pricing/)

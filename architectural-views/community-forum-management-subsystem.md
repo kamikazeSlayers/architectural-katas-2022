@@ -3,8 +3,9 @@ Community Forums are the heart of the Spotlight ecosystem that bring together al
 
 See platform requirement [#1](../requirements/functional-requirements.md#functional-requirements) and non-profit requirement [#NP4](../requirements/functional-requirements.md#user-stories), candidate requirements [#C4, #C5](../requirements/functional-requirements.md#candidate), community leader requirement [#CL5](../requirements/functional-requirements.md#community-leader), career mentor requirement [#CM5](../requirements/functional-requirements.md#career-mentor) and admin requirements [#A1, #A2](../requirements/functional-requirements.md#admin).
 
-<img src="../resources/images/community-forum-management.png" height="600"></img>
-_Created using Lucidchart. Refer [here](https://lucid.app/documents/view/6ac4f17a-30bf-464b-91bb-589963999fcf)._
+| <img src="../resources/images/community-forum-management.png" height="600"></img> |
+| --- |
+| _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/6ac4f17a-30bf-464b-91bb-589963999fcf)._ |
 
 ## Element Catalog 
 
@@ -12,7 +13,7 @@ _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/6ac4f17
 
 - Community Forum Management Service (CFMS) manages communities, community-memberships, forums, posts, post-votes, and user-rewards. It uses a SQL database to manage these entities and their relationships.
 
-- CFMS and related services use event-driven architecture to support high scale and resiliency. It enables asynchronous processing of high volume workflows thereby uncoupling the services to process high volume non-urgent workflows asynchronously.
+- CFMS and related services use event-driven architecture to support high scale and resiliency. It enables asynchronous processing of workflows and keeps the services uncoupled for flexibility and ease of development.
 
 - CFMS publishes common interaction events (post CRUD, upvotes, user memberships to community etc.) into the Message Queue. 
 
@@ -21,7 +22,7 @@ _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/6ac4f17
 - These events are also consumed by Search Service for faster discovery and retrieval of communities, posts etc. 
 
 #### Post Service
-- Post Service is responsible for create/read/update/delete user posts, upload assets to Object Store. It use a NoSQL key-value database that offers a scalable store for Posts. 
+- Post Service is responsible for create/read/update/delete operations on user posts and upload of assets to Object Store. It use a NoSQL key-value database that offers a scalable store for Posts. 
 
 #### Feed / Ranking Cache Manager
 - Feed / Ranking Cache Manager is responsible for intelligently computing the top-posts (based on upvotes, downvotes, views etc), managing the top ranking of posts in a feed (per community, per region etc.) and offers a way to retrieve most meaningful top posts per user.
@@ -32,7 +33,7 @@ _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/6ac4f17
 - Search Service uses ElasticSearch for maintaining the search index.
 
 ## Out-of-the-box (OOTB) Offerings Considerations
-In order to speed up the development process and save on costs in the initial phases, we evaluated some OOTB community platforms that fulfill all of Spotlight app's requirements. In order to keep the user engaged, we can build abstractions on top of these platforms giving us the following advantages:
+In order to speed up the development process and save on costs in the initial phases, we evaluated some OOTB community platforms that fulfill Spotlight's community forum requirements. In order to keep the user engaged, we can build abstractions on top of these platforms giving us the following advantages:
 - Avoid vendor lock-in: One offering can be replaced with another, given it provides programmatic access (APIs).
 - Flexibile design: Third-party offering can be replaced with our own subsystem (desribed [above](#community-forum-management-subsystem)) based on  usage, scale and other required features.
 
@@ -45,7 +46,7 @@ There are many community platforms out there ([bbPress (Wordpress)](https://word
 - Programmatic Access: You can use the API functionality to integrate with any platform.
 - Numerous [integrations](https://peerboard.com/integrations) that give the ability to add all kinds of additional features to your community. 
 
-The profession plan fulfills all platform requirements and is priced at only $79/month, very cheap compared to other platforms out there. If the team wants to save on costs and development effort, this could be great starting point.
+The profession plan fulfills all platform requirements and is priced at only $79/month, very cheap compared to other solutions. If the team wants to save on costs and development effort, this could be great starting point.
 
 ## Related ADRs 
 - [Microservices Architecture](../adrs/adr01-microservice-architecture.md)

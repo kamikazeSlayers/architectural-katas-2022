@@ -6,8 +6,9 @@ This subsystem comprises of the following major components:
 
 See platform requirement [#1](../requirements/functional-requirements.md#functional-requirements), community leader requirement [#CL2](../requirements/functional-requirements.md#community-leader) and career mentor requirement [#CM5](../requirements/functional-requirements.md#career-mentor).
 
-![Notification and Meeting Scheduler Architecture](../resources/images/notification-and-meeting-scheduler.jpeg)
-_Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b52fc8b9-1ada-4c67-9c6f-0a882811384d)._
+| ![Notification and Meeting Scheduler Architecture](../resources/images/notification-and-meeting-scheduler.jpeg) |
+| --- |
+| _Created using Lucidchart. Refer [here](https://lucid.app/documents/view/b52fc8b9-1ada-4c67-9c6f-0a882811384d)._ |
 
 ## Element Catalog 
 
@@ -44,6 +45,9 @@ Meeting scheduler works as follows -
 
 For tracking the scheduled meetings, Meeting Scheduler service uses a SQL database. For scheduling meetings, this service can optionally leverage third-party services like Google Meet or Zoom to facilitate virtual meetings.
 
+## Out-of-the-box (OOTB) Offerings Considerations
+[Google Calendar](https://developers.google.com/calendar/api/guides/create-events) can be leveraged for scheduling events. It can be easily integrated with [Google Meet](https://developers.google.com/calendar/api/guides/create-events#conferencing) for virtual meetings.
+  
 ## Related ADRs
 - [Microservices Architecture](../adrs/adr01-microservice-architecture.md)
 - [Event Driven Architecture](../adrs/adr02-eda-architecture.md)
