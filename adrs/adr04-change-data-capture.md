@@ -7,7 +7,7 @@ Approved
 Spotlight platform requires ease-of-use and engagement as hard requirements. For that, search becomes a critical piece to enhance discovery and retrieval of entities in the system that enhance the overall candidate experience and keep him engaged.
 For search to work it has to stay up-to-date with any changes in the data set in a consistent manner. This gives rise to the problem of constantly keeping track of database changes in a scalable and resilient manner.
 
-Change Data Capture (CDC) in databases is a set of software design patterns used to determine and track the data that has changed so that action can be taken using the changed data. This allows seamless tracking of database changes without polling the database or pushing updates to a separate channel like queue.
+Change Data Capture (CDC) in databases is a set of software design patterns used to determine and track the data that has changed so that action can be taken using the changed data. This allows seamless tracking of database changes without polling the database or pushing updates as part of a distributed transaction to a separate channel like queue.
 
 ## Decision 
 Spotlight platform will use the CDC pattern wherever applicable to track database changes.
