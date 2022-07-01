@@ -23,7 +23,6 @@ Please go through the provided [requirement document](https://docs.google.com/do
 ## Context View
 <img src="resources/images/context_view.jpeg" height="200"></img>
 
-
 ## Architecture Elevator Pitch 
 [The Spotlight Platform: Architecture](https://drive.google.com/file/d/1y8cLtvADAdR0CDo7N0qSXl_5mZXKFzMn/view?usp=sharing)
 
@@ -118,3 +117,11 @@ We used the following tools through the entire architecture journey.
 - [Microsoft Powerpoint](https://www.microsoft.com/en-in/microsoft-365/powerpoint) - for creating presentation slides.
 - [Adobe Premiere Rush](https://www.adobe.com/in/products/premiere-rush.html) - for editing the submission video.
 - [Microsoft Teams](https://www.microsoft.com/en-in/microsoft-teams/log-in) - for collaborating among the team members.
+
+---
+
+## About the Team: Kamikaze Slayers
+We are a passionate group of engineers at Adobe that helped build [Adobe's Eventing Platform](https://developer.adobe.com/events/).
+- [Sahil Gera](https://www.linkedin.com/in/sahil-gera/)
+- [Sangeetha Krishnan](https://www.linkedin.com/in/sangeetha-krishnan-7594254a/)
+- [Shikhar Tanwar](https://www.linkedin.com/in/shikhartanwar/)
