@@ -24,7 +24,7 @@ Please go through the provided [requirement document](https://docs.google.com/do
 <img src="resources/images/context_view.jpeg" height="200"></img>
 
 ## Architecture Elevator Pitch 
-[The Spotlight Platform: Architecture](https://drive.google.com/file/d/1y8cLtvADAdR0CDo7N0qSXl_5mZXKFzMn/view?usp=sharing)
+[<img src="resources/images/spotlight-architecture-video-playback.png" height="200" alt="The Spotlight Platform: Elevator Pitch"></img>](https://drive.google.com/file/d/1y8cLtvADAdR0CDo7N0qSXl_5mZXKFzMn/view?usp=sharing)
 
 ## Architecture Highlights
 The following points outline how does the architecture support some of the hard-requirements of this platform:
