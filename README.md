@@ -1,6 +1,15 @@
-# The Spotlight App Project - Illuminate Possibilities
+# The Spotlight App Project | Architectural Kata (Spring 2022)
 
 <img src="resources/images/spotlight.jpeg"></img>
+
+
+## Presented By: Kamikaze Slayers
+We are a passionate group of engineers at Adobe that helped build [Adobe's Eventing Platform](https://developer.adobe.com/events/).
+- [Sahil Gera](https://www.linkedin.com/in/sahil-gera/)
+- [Sangeetha Krishnan](https://www.linkedin.com/in/sangeetha-krishnan-7594254a/)
+- [Shikhar Tanwar](https://www.linkedin.com/in/shikhartanwar/)
+
+:trophy: &nbsp; [Semi-finalists](https://github.com/tekiegirl/SoftwareArchitectureResources/blob/main/Resources/OReillyKata.md#finalists-spring-2022) of the Spring 2022 Architectural Kata hosted by [O'Reilly](https://learning.oreilly.com/featured/architectural-katas/).
 
 ## Introduction
 Diversity Cyber Council is a 501c3 Non-Profit that serves under-represented demographics in the tech industry by facilitating education, training, and staffing opportunities to establish a sustainable and diverse talent pipeline to the workforce. Their vision is to enhance inclusion and representation in the tech industry through training, mentoring, networking, and visibility programs. Their goal is to establish a sustainable and diverse talent pipeline that extends career equity to under-represented demographics by providing access to competent training programs that lead to direct employment opportunities. 
@@ -117,11 +126,3 @@ We used the following tools through the entire architecture journey.
 - [Microsoft Powerpoint](https://www.microsoft.com/en-in/microsoft-365/powerpoint) - for creating presentation slides.
 - [Adobe Premiere Rush](https://www.adobe.com/in/products/premiere-rush.html) - for editing the submission video.
 - [Microsoft Teams](https://www.microsoft.com/en-in/microsoft-teams/log-in) - for collaborating among the team members.
-
----
-
-## About the Team: Kamikaze Slayers
-We are a passionate group of engineers at Adobe that helped build [Adobe's Eventing Platform](https://developer.adobe.com/events/).
-- [Sahil Gera](https://www.linkedin.com/in/sahil-gera/)
-- [Sangeetha Krishnan](https://www.linkedin.com/in/sangeetha-krishnan-7594254a/)
-- [Shikhar Tanwar](https://www.linkedin.com/in/shikhartanwar/)
